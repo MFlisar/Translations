@@ -7,7 +7,7 @@ Collaborative translations of some of my apps
 - [ ] one info file per app that explains which libraries are used in it
 - [ ] one info file to explain how to use github
 
-## TODO - Scripts
+## TODO - Scripts or console app
 
 - [ ] CREATE_NEW_LANGUAGE (params: app, language)
   - create new empty language file for an app with english strings as comments
