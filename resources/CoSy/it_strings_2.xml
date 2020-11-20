@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+       <!-- <string name="app_name">CoSy for WhatsApp (ROOT)</string> -->
+      <string name="app_name">CoSy per WhatsApp (ROOT)</string>
+
+       <!-- <string name="app_name_in_app">CoSy for WhatsApp</string> -->
+      <string name="app_name_in_app">CoSy per WhatsApp</string>
+
+       <!-- <string name="app_description"><b>Co</b>ntact <b>Sy</b>nc for WhatsApp</string> -->
+      <string name="app_description"><b>Co</b>ntatto <b>Sy</b>ncro per WhatsApp</string>
+
+       <!-- <string name="accessibility_service_description">Needed to help you to download WhatsApp images automatically for you</string> -->
+      <string name="accessibility_service_description">Necessario per aiutarti a scaricare le immagini di WhatsApp automaticamente</string>
+
+       <!-- <string name="download_whatsapp_service_notification_info">Downloading images...</string> -->
+      <string name="download_whatsapp_service_notification_info">Scaricamento immagini...</string>
+
+       <!-- <string name="download_whatsapp_enable_service">Enable accessibility service</string> -->
+      <string name="download_whatsapp_enable_service">Abilita servizio accessibilità</string>
+
+       <!-- <string name="download_whatsapp_info_phone_unusable">I do understand that I shouldn\'t use my phone during the download process</string> -->
+      <string name="download_whatsapp_info_phone_unusable">Comprendo che non devo utilizzare il telefono durante la fase di scaricamento</string>
+
+       <!-- <string name="download_whatsapp_activity_title">Image download</string> -->
+      <string name="download_whatsapp_activity_title">Scarico immagine</string>
+
+       <!-- <string name="download_whatsapp_finished_info">%1$d images downloaded</string> -->
+      <string name="download_whatsapp_finished_info">%1$d immagini scaricate</string>
+
+       <!-- <string name="download_whatsapp_finished_info_cancelled">%1$d of %2$d images downloaded - Download service has been cancelled!</string> -->
+      <string name="download_whatsapp_finished_info_cancelled">%1$d di %2$d immagini scaricate - Il servizio di scaricamento è stato annullato!</string>
+
+       <!-- <string name="download_whatsapp_step1_title">Important information</string> -->
+      <string name="download_whatsapp_step1_title">Informazione importante</string>
+
+       <!-- <string name="download_whatsapp_step2_title">How this works</string> -->
+      <string name="download_whatsapp_step2_title">Come funziona</string>
+
+       <!-- <string name="download_whatsapp_step3_title">1) Manual method</string> -->
+      <string name="download_whatsapp_step3_title">1) Metodo manuale</string>
+
+       <!-- <string name="download_whatsapp_step4_title">2) Automatic method</string> -->
+      <string name="download_whatsapp_step4_title">2) Metodo automatico</string>
+
+       <!-- <string name="download_whatsapp_step5_title">2.1) Auto download - How it works</string> -->
+      <string name="download_whatsapp_step5_title">2.1) Scaricamento automatico - Come funziona</string>
+
+       <!-- <string name="download_whatsapp_step6_title">2.2) Auto download - Accessibility Service</string> -->
+      <string name="download_whatsapp_step6_title">2.2) Scaricamento automatico - Servizio Accessibilità</string>
+
+       <!-- <string name="download_whatsapp_step7_title">2.3) Auto download - Download</string> -->
+      <string name="download_whatsapp_step7_title">2.3) Scaricamento automatico - Scaricamento</string>
+
+       <!-- <string name="download_whatsapp_step1_summary"><![CDATA[Downloading images is a <b>manual</b> process!]]></string> -->
+      <string name="download_whatsapp_step1_summary"><![CDATA[Scaricare le immagini è un processo <b>manuale</b>!]]></string>
+
+       <!-- <string name="download_whatsapp_step5_summary">Phone shouldn\'t be used during download</string> -->
+      <string name="download_whatsapp_step5_summary">Il telefono non deve essere usato durante il download</string>
+
+       <!-- <string name="download_whatsapp_step6_summary_service_enabled">Service enabled</string> -->
+      <string name="download_whatsapp_step6_summary_service_enabled">Servizio attivato</string>
+
+       <!-- <string name="download_whatsapp_step6_summary_service_not_enabled">Service NOT enabled</string> -->
+      <string name="download_whatsapp_step6_summary_service_not_enabled">Servizio NON attivato</string>
+
+       <!-- <string name="download_whatsapp_step1_text"><![CDATA[You must download the images through WhatsApp <b>DIRECTLY</b>, only afterwards this app can do its work.]]></string> -->
+      <string name="download_whatsapp_step1_text"><![CDATA[Devi scaricare le immagini <b>DIRETTAMENTE</b> tramite WhatsApp, solo allora quest\'app potrà funzionare]]></string>
+
+       <!-- <string name="download_whatsapp_step2_text"><![CDATA[To download a friends picture from WhatsApp you must do following:<br/><br/>1) Open a conversation with a friend<br/>2) Click on the friend\'s icon to open the big image<br/><br/><i>This will download the image to the WhatsApp folder.</i>]]></string> -->
+      <string name="download_whatsapp_step2_text"><![CDATA[Per scaricare una foto di un amico da WhatsApp devi fare quanto segue:<br/><br/>1) Apri una conversazione con un amico<br/>2) Clicca sull\'icona del suddetto per aprire l\'immagine ingrandita<br/><br/><i>Questo scaricherà l\'immagine nella cartella di WhatsApp.</i>]]></string>
+
+       <!-- <string name="download_whatsapp_step3_text">Do the manual download whenever you see a new image in a conversation. On the following sync this app will automatically recognise the new image. If you have linked a contact with the friend, then the app will automatically update this friends image.</string> -->
+      <string name="download_whatsapp_step3_text">Effettua lo scaricamento manuale quando vedi una nuova immagine in una conversazione. Nella prossima sincronizzazione l\'app riconoscerà automaticamente la nuova immagine. Se hai collegato un contatto con un amico, l\'app aggiornerà automaticamente la sua immagine profilo.</string>
+
+       <!-- <string name="download_whatsapp_step4_text"><![CDATA[This app can help you to download <b>ALL</b> images at once, but this needs a special permission. Click <i>Automatic download</i> to find out more. Alternatively just close this activity and use the manual download only.]]></string> -->
+      <string name="download_whatsapp_step4_text"><![CDATA[Quest\'app può aiutarti a scaricare <b>TUTTE</b> le immagini in una volta, ma sono necessari dei permessi speciali. Tocca su <i>Download Automatico</i> per ulteriori informazioni. In alternativa chiudi questa voce ed usa solamente lo scaricamento manuale.]]></string>
+
+       <!-- <string name="download_whatsapp_step5_text"><![CDATA[This app will start a service and will do following for you <b>for each contact</b>:<br/><br/>1) Open the conversation with the contact<br/>2) Open the big image of the contact<br/>3) Wait 2s to make sure the big image is downloaded<br/><br/>This process will take some time as it is done for <b>each contact</b> and during this process <b>you shouldn\'t use your phone</b>.<br/><br/><i>You can cancel the service from the notifications at any time though.</i>]]></string> -->
+      <string name="download_whatsapp_step5_text"><![CDATA[Quest\'app avvio un servizio e farà le seguenti azioni al tuo posto <b>per ogni contatto</b>:<br/><br/>1) Apre la conversazione con il contatto<br/>2) Apre l\'immagine ingrandita del contatto<br/>3) Attende 2s per essere sicuro che l\'immagine venga scaricata<br/><br/>Questo processo richiederà diverso tempo finché non verrà effettuato per <b>ogni contatto</b> e durante l\'intero processo <b>non dovesti usare il telefono</b>.<br/><br/><i>Puoi annullare il servizio dalle notifiche in qualsiasi momento.</i>]]></string>
+
+       <!-- <string name="download_whatsapp_step6_text"><![CDATA[Enable the accessibilities service for this app. This is necessary so that this app can emulate your interaction with WhatsApp and so will download each contacts picture automatically for you.<br/><br/>Service running:&nbsp;]]></string> -->
+      <string name="download_whatsapp_step6_text"><![CDATA[Abilita il servizio accessibilità per quest\'app. Ciò è necessario così l\'app potrà emulare la tua interazione con WhatsApp e potrà scaricare tutte le immagini contatto automaticamente al posto tuo.<br/><br/>Servizio attivo:&nbsp;]]></string>
+
+       <!-- <string name="download_whatsapp_step6_text_running"><![CDATA[<b>YES</b>]]></string> -->
+      <string name="download_whatsapp_step6_text_running"><![CDATA[<b>SÌ</b>]]></string>
+
+       <!-- <string name="download_whatsapp_step6_text_not_running"><![CDATA[<font color=\'#ff0000\'>NO</font><br/><br/>Please enable the service in your system settings before continuing.]]></string> -->
+      <string name="download_whatsapp_step6_text_not_running"><![CDATA[<font color='#ff0000'>NO</font><br/><br/>Per favore abilita il servizio nelle impostazioni di sistema prima di procedere.]]></string>
+
+       <!-- <string name="download_whatsapp_step7_text">You\'re ready to start the download service</string> -->
+      <string name="download_whatsapp_step7_text">Sei pronto per avviare il servizio di download</string>
+
+       <!-- <string name="download_whatsapp_button_auto_download">Automatic download</string> -->
+      <string name="download_whatsapp_button_auto_download">Download automatico</string>
+
+       <!-- <string name="download_whatsapp_button_start_download">Start download</string> -->
+      <string name="download_whatsapp_button_start_download">Avvia download</string>
+
+       <!-- <string name="download_whatsapp_error_info_4">You must confirm that you understand that you shouldn\'t use your phone during the automatic download process</string> -->
+      <string name="download_whatsapp_error_info_4">Devi confermare che hai compreso che non dovresti usare il telefono durante la fase di scaricamento automatico</string>
+
+       <!-- <string name="download_whatsapp_error_info_5_and_7">You must enable the accessibility service before you can continue</string> -->
+      <string name="download_whatsapp_error_info_5_and_7">Devi abilitare il servizio di accessibilità prima di poter procedere</string>
+
+       <!-- <string name="download_whatsapp_info_download_started">Download started...</string> -->
+      <string name="download_whatsapp_info_download_started">Download avviato...</string>
+
+       <!-- <string name="download_whatsapp_download_test">Test download with a single contact only - uncheck to start a download of all friends</string> -->
+      <string name="download_whatsapp_download_test">Effettua un test scaricando da un singolo contatto - togli la spunta per iniziare a scaricare da tutti gli amici</string>
+</resources>

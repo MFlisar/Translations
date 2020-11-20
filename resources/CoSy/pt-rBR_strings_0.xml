@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+       <!-- <string name="app_name">CoSy for Facebook</string> -->
+      <string name="app_name">CoSy para Facebook</string>
+
+       <!-- <string name="app_name_in_app">CoSy for Facebook</string> -->
+      <string name="app_name_in_app">CoSy para Facebook</string>
+
+       <!-- <string name="app_description"><b>Co</b>ntact <b>Sy</b>nc for Facebook</string> -->
+      <string name="app_description"></string>
+
+       <!-- <string name="privacy_information_title">Privacy information</string> -->
+      <string name="privacy_information_title">Informações de privacidade</string>
+
+       <!-- <string name="privacy_information_text_multi"><![CDATA[This app will import the list of all your facebook friends containing following private data from facebook if you continue:<br/><i>Profile links, names and public IDs of all your facebook friends.</i><br/><br/>As you need to log in to facebook, you additionally need to accept their rules, this means, by using facebook you may share private data with facebook, like for example WhatsApp data. Check out their policies to find out more: <a href=\"https://www.facebook.com/policy.php\">Facebook policy</a>]]></string> -->
+      <string name="privacy_information_text_multi"><![CDATA[Este aplicativo irá importar a lista de todos os seus amigos do Facebook contendo os seguintes dados privados do Facebook, se você continuar:<br/><ul><li>Link do perfil do Facebook do seu amigo</li><li>ID do facebook público do seu amigo</li><li>O nome do facebook do seu amigo</li></ul><br/>odos esses dados não são coletados e são salvos neste dispositivo apenas localmente. É usado apenas para obter as imagens de contato públicas de seus amigos.]]></string>
+
+       <!-- <string name="privacy_information_text_single"><![CDATA[This app will import following private data from facebook if you continue:<br/><i>Profile links, names and public IDs of all your facebook friends.</i><br/><br/>As you need to log in to facebook, you additionally need to accept their rules, this means, by using facebook you may share private data with facebook, like for example WhatsApp data. Check out their policies to find out more: <a href=\"https://www.facebook.com/policy.php\">Facebook policy</a>]]></string> -->
+      <string name="privacy_information_text_single"><![CDATA[Este aplicativo irá importar os seguintes dados privados do facebook, se você continuar:<br/><ul><li>Link do perfil do Facebook do seu amigo</li><li>ID do facebook público do seu amigo</li><li>O nome do facebook do seu amigo</li></ul><br/>Todos esses dados não são coletados e são salvos neste dispositivo apenas localmente. É usado apenas para obter as imagens de contato públicas de seus amigos.]]></string>
+</resources>

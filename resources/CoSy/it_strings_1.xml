@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+       <!-- <string name="contacts_account_can_only_be_added_automatically">This account is managed automatically by CoSy and can\'t be added manually!</string> -->
+      <string name="contacts_account_can_only_be_added_automatically">Questo account è gestito automaticamente da CoSy e non può essere aggiunto manualmente!</string>
+
+       <!-- <string name="google">Google</string> -->
+      <string name="google">Google</string>
+
+       <!-- <string name="sim">SIM</string> -->
+      <string name="sim">SIM</string>
+
+       <!-- <string name="phone">Telephone</string> -->
+      <string name="phone">Telefono</string>
+
+       <!-- <string name="ok">Ok</string> -->
+      <string name="ok">Ok</string>
+
+       <!-- <string name="back">Back</string> -->
+      <string name="back">Indietro</string>
+
+       <!-- <string name="cancel">Cancel</string> -->
+      <string name="cancel">Annulla</string>
+
+       <!-- <string name="enable">Enable</string> -->
+      <string name="enable">Abilita</string>
+
+       <!-- <string name="bt_continue">Continue</string> -->
+      <string name="bt_continue">Continua</string>
+
+       <!-- <string name="bt_loading_ad">Loading ad...</string> -->
+      <string name="bt_loading_ad">Caricamento annuncio...</string>
+
+       <!-- <string name="wait_for_ad_to_load">You must wait for ad to load</string> -->
+      <string name="wait_for_ad_to_load">Devi attendere il caricamento dell\'annuncio</string>
+
+       <!-- <string name="edit">Edit</string> -->
+      <string name="edit">Modifica</string>
+
+       <!-- <string name="delete">Delete</string> -->
+      <string name="delete">Elimina</string>
+
+       <!-- <string name="help">Help</string> -->
+      <string name="help">Aiuto</string>
+
+       <!-- <string name="sort">Sort</string> -->
+      <string name="sort">Ordinamento</string>
+
+       <!-- <string name="sort_name_asc">Name (asc)</string> -->
+      <string name="sort_name_asc">Nome (asc)</string>
+
+       <!-- <string name="sort_name_desc">Name (desc)</string> -->
+      <string name="sort_name_desc">Nome (disc)</string>
+
+       <!-- <string name="sort_date_asc">Update date (asc)</string> -->
+      <string name="sort_date_asc">Data aggiornamento (asc)</string>
+
+       <!-- <string name="sort_date_desc">Update date (desc)</string> -->
+      <string name="sort_date_desc">Data aggiornamento (disc)</string>
+
+       <!-- <string name="filter">Search</string> -->
+      <string name="filter">Ricerca</string>
+
+       <!-- <string name="next_alarm">Next auto sync is scheduled on %1$s at %2$s</string> -->
+      <string name="next_alarm">La prossima sincronizzazione automatica è programmata il %1$s alle %2$s</string>
+
+       <!-- <string name="filter_text">Showing %1$s of %2$s contacts</string> -->
+      <string name="filter_text">Mostrando %1$s di %2$s contatti</string>
+
+       <!-- <string name="filter_all">All</string> -->
+      <string name="filter_all">Tutti</string>
+
+       <!-- <string name="with">With</string> -->
+      <string name="with">Con</string>
+
+       <!-- <string name="without">Without</string> -->
+      <string name="without">Senza</string>
+
+       <!-- <string name="filter_with_image">With image</string> -->
+      <string name="filter_with_image">Con immagine</string>
+
+       <!-- <string name="filter_without_image">Without image</string> -->
+      <string name="filter_without_image">Senza immagine</string>
+
+       <!-- <string name="filter_contacts_with_number">Contacts with a number</string> -->
+      <string name="filter_contacts_with_number">Contatti con un numero</string>
+
+       <!-- <string name="filter_used_short">Used</string> -->
+      <string name="filter_used_short">Usati</string>
+
+       <!-- <string name="filter_used_long">Used for sync</string> -->
+      <string name="filter_used_long">Usati per sincronizzazione</string>
+
+       <!-- <string name="filter_unused_short">Not used</string> -->
+      <string name="filter_unused_short">Non usati</string>
+
+       <!-- <string name="filter_unused_long">Not used for sync</string> -->
+      <string name="filter_unused_long">Non usati per sincronizzazione</string>
+
+       <!-- <string name="filter_linked_short">Linked</string> -->
+      <string name="filter_linked_short">Collegati</string>
+
+       <!-- <string name="filter_linked_long">Linked with friend</string> -->
+      <string name="filter_linked_long">Collegati con amici</string>
+
+       <!-- <string name="filter_not_linked_short">Not linked</string> -->
+      <string name="filter_not_linked_short">Non collegati</string>
+
+       <!-- <string name="filter_not_linked_long">Not linked with any friend</string> -->
+      <string name="filter_not_linked_long">Non collegati con alcun amico</string>
+
+       <!-- <string name="no_contacts_found">No contacts found</string> -->
+      <string name="no_contacts_found">Nessun contatto trovato</string>
+
+       <!-- <string name="no_friends_found">No friends found.\nHave you already imported them?</string> -->
+      <string name="no_friends_found">"Nessun amico trovato.\nLi hai già importati? "</string>
+
+       <!-- <string name="no_friend_found">No friend found</string> -->
+      <string name="no_friend_found">Nessun amico trovato</string>
+
+       <!-- <string name="button_root">Root</string> -->
+      <string name="button_root">Root</string>
+
+       <!-- <string name="button_import">Import</string> -->
+      <string name="button_import">Importa</string>
+
+       <!-- <string name="button_link">Link</string> -->
+      <string name="button_link">Collega</string>
+
+       <!-- <string name="button_download_images">Download</string> -->
+      <string name="button_download_images">Download</string>
+
+       <!-- <string name="button_sync">Sync now</string> -->
+      <string name="button_sync">Sincronizza ora</string>
+
+       <!-- <string name="every_hour_hours_addon">hour(s)</string> -->
+      <string name="every_hour_hours_addon">ora(e)</string>
+
+       <!-- <string name="every_day_days_addon">day(s)</string> -->
+      <string name="every_day_days_addon">giorno(i)</string>
+
+       <!-- <string name="every_week_weeks_addon">week(s)</string> -->
+      <string name="every_week_weeks_addon">settimana(e)</string>
+
+       <!-- <string name="every_minute_minutes_addon">minute(s)</string> -->
+      <string name="every_minute_minutes_addon">minuto(i)</string>
+
+       <!-- <string name="every">Every</string> -->
+      <string name="every">Ogni</string>
+
+       <!-- <string name="general">General</string> -->
+      <string name="general">Generale</string>
+
+       <!-- <string name="filtered_accounts_title">Excluded accounts</string> -->
+      <string name="filtered_accounts_title">Account esclusi</string>
+
+       <!-- <string name="filtered_accounts">%1$d accounts excluded</string> -->
+      <string name="filtered_accounts">%1$d account esclusi</string>
+
+       <!-- <string name="settings_auto_sync">Auto sync</string> -->
+      <string name="settings_auto_sync">Sincronizzazione automatica</string>
+
+       <!-- <string name="auto_sync_frequency">Frequency</string> -->
+      <string name="auto_sync_frequency">Frequenza</string>
+
+       <!-- <string name="auto_sync_time">Time</string> -->
+      <string name="auto_sync_time">Ora</string>
+
+       <!-- <string name="auto_sync_day">Day</string> -->
+      <string name="auto_sync_day">Giorno</string>
+
+       <!-- <string name="auto_sync_preconditions">Preconditions</string> -->
+      <string name="auto_sync_preconditions">Precondizioni</string>
+
+       <!-- <string name="settings_history">Image history</string> -->
+      <string name="settings_history">Cronologia immagini</string>
+
+       <!-- <string name="settings_images">Images</string> -->
+      <string name="settings_images">Immagini</string>
+
+       <!-- <string name="enable_image_history">Enable image history</string> -->
+      <string name="enable_image_history">Abilita cronologia immagini</string>
+
+       <!-- <string name="images_to_remember">Maximum number</string> -->
+      <string name="images_to_remember">Numero massimo</string>
+
+       <!-- <string name="settings_various">Various</string> -->
+      <string name="settings_various">Varie</string>
+
+       <!-- <string name="advanced_settings">Advanced settings</string> -->
+      <string name="advanced_settings">Impostazioni avanzate</string>
+
+       <!-- <string name="settings_detailed_auto_sync_report">Detailed auto sync report</string> -->
+      <string name="settings_detailed_auto_sync_report">Report dettagliato sincro automatica</string>
+
+       <!-- <string name="settings_check_image_changed_outside">Check if image was changed outside of this app</string> -->
+      <string name="settings_check_image_changed_outside">Controlla se l\'immagine è cambiata fuori da questa app</string>
+
+       <!-- <string name="settings_disable_errors_only_notification">Disable errors only notification (not recommended!)</string> -->
+      <string name="settings_disable_errors_only_notification">Disabilita la notifica dei soli errori (non raccomandato!)</string>
+
+       <!-- <string name="settings_show_debug_functions">Show debug functions</string> -->
+      <string name="settings_show_debug_functions">Mostra funzioni debug</string>
+
+       <!-- <string name="settings_enable_logging">Enable logging</string> -->
+      <string name="settings_enable_logging">Abilita logging</string>
+
+       <!-- <string name="settings_enable_advanced_logging">Enable advanced logging</string> -->
+      <string name="settings_enable_advanced_logging">Abilita logging avanzato</string>
+
+       <!-- <string name="settings_enable_logs">Enable logging</string> -->
+      <string name="settings_enable_logs">Abilita logging</string>
+
+       <!-- <string name="settings_enable_logs_info">If enabled, contact names, numbers, html content or ids may be logged to a log file on your phone in addition to a lot of debug data. This data will not leave your phone without your consent but you can send me the log file via mail (this is the only way that this data will ever leave your phone) and this improves my possibilities to reproduce issues and to solve them. I will not collect this data and will delete it as soon as the issue is solved.\n\nInsert "%1$s" to enabled logs</string> -->
+      <string name="settings_enable_logs_info">Se abilitato, i nomi contatti, numeri, contenuto html o gli id potrebbero essere salvati in un file di log sul tuo telefono in aggiunta ad un sacco di dati di debug. Questi dati non usciranno dal tuo telefono senza il tuo consenso ma puoi inviarmi i file di log via mail (questo è l\'unico modo perché i dati possano uscire dal telefono) e ciò migliorerà le mie possibilità di riprodurre i difetti e di risolverli. Non collezionerò questi dati e li cancellerò appena avrò risolto il problema.\n\nInserisci \"%1$s\" per abilitare i log</string>
+
+       <!-- <string name="settings_reset_all_contacts_image_comparison_data">Reset all contacts comparison data</string> -->
+      <string name="settings_reset_all_contacts_image_comparison_data">Resetta tutti i dati di confronto contatti</string>
+
+       <!-- <string name="settings_reset_all_contacts_image_comparison_data_info">This resets the internal comparison data and will have the effect that the app will replace each linked contact image with the current linked friends image regardless of it being changed or not</string> -->
+      <string name="settings_reset_all_contacts_image_comparison_data_info">Questo resetterà i dati di confronto contatti interno e l\'app avrà come effetto che rimpiazzerà tutti le immagini connesse con le attuali immagini connesse agli amici indipendentemente se sono cambiate o meno</string>
+
+       <!-- <string name="settings_reset_all_contact_links">Reset all linkings</string> -->
+      <string name="settings_reset_all_contact_links">Resetta tutti i collegamenti</string>
+
+       <!-- <string name="settings_reset_all_contact_links_info">This removes all links between contacts and friends - you must set them up again afterwards yourself!</string> -->
+      <string name="settings_reset_all_contact_links_info">Questo rimuoverà tutti i collegamenti tra i contatti e gli amici - dovrai reimpostarli manualmente da capo!</string>
+
+       <!-- <string name="settings_limit_size_short">Image resolution</string> -->
+      <string name="settings_limit_size_short">Risoluzione immagine</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading">Pause between loading friends pages when importing friends</string> -->
+      <string name="settings_pause_facebook_friends_page_loading">Metti in pausa il caricamento delle pagine durante l\'importazione degli amici</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_info_title">Pause</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_info_title">Pausa</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_info_text">The import via login does need to load each of your friends page one by one once. If this happens to frequently, facebook will block you temporarily. Adjust the pause time here to avoid this, adjust the frequency to decide how often this pause will be made.</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_info_text">L\'importazione via login richiede di caricare la pagina di ogni tuo amico, una per una. Se ciò avviene troppo in fretta Facebook ti bloccherà temporaneamente. Regola il tempo di pausa per evitare ciò, regola la frequenza per decidere ogni quanto verrà eseguita questa pausa.</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_frequency">Frequency of pause between loading friends (every nth time)</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_frequency">Frequenza di pausa mentre si caricano gli amici (ogni N volte)</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_frequency_info_title">Frequency</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_frequency_info_title">Frequenza</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_frequency_info_text">Select a frequency to decide how often the selected pause will be made, it will be made after each nth friends page load, where n is the frequency you select here.</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_frequency_info_text">Seleziona una frequenza per decidere quanto volte la pausa selezionata viene effettuata, sarà eseguita dopo ogni N pagine amici caricate, dove N è la frequenza che selezionerai qui.</string>
+
+       <!-- <string name="settings_limit_size_long">Limit image download resolution if possible (Normally phone contacts can\'t use a higher resolution than 720x720 anyways!)</string> -->
+      <string name="settings_limit_size_long">Limite di risoluzione download immagine è possibile (Normalmente i contatti del telefono con possono comunque usare una risoluzione più alta di 720x720!)</string>
+
+       <!-- <string name="images_history_path">Path</string> -->
+      <string name="images_history_path">Percorso</string>
+
+       <!-- <string name="misc">Miscellaneous</string> -->
+      <string name="misc">Varie</string>
+
+       <!-- <string name="silent_mode">Silent mode</string> -->
+      <string name="silent_mode">Modalità silenziosa</string>
+
+       <!-- <string name="silent_mode_info">Don\'t notify the user about updated images with a notification.</string> -->
+      <string name="silent_mode_info">Non notificare l\'aggiornamento delle immagini</string>
+
+       <!-- <string name="silent_notification">Silent notifications</string> -->
+      <string name="silent_notification">Notifiche silenziose</string>
+
+       <!-- <string name="silent_notification_info">Disables sound/vibration of the notifications</string> -->
+      <string name="silent_notification_info">Disabilita suono/vibrazione delle notifiche</string>
+
+       <!-- <string name="silent_notification_info_oreo_or_above">Use android\'s notification channels settings to set up this apps notifcation. I offer two channels for this app:\n* \"update channel\": this on defines which sound and vibration is played for each step of an update progress notification (silent by default)\n* \"info channel\": this on defines which sound and vibration is player for the final information notification and for error notifications (sound and vibration by default)</string> -->
+      <string name="silent_notification_info_oreo_or_above">Utilizza le impostazioni dei canali di notifica di Android per configurare questa notifica delle applicazioni. Offro due canali per questa applicazione:\n* \"update channel\": attivato questo, definisce quale suono e vibrazione verrà riprodotta per ogni step di una notifica di avanzamento dell\'aggiornamento (silenziosa per default)\n* \"info channel\": attivato questo, definisce quale suono e vibrazione verrà riprodotta per la notifica delle informazioni finali e per le notifiche di errore (suono e vibrazione per default)</string>
+
+       <!-- <string name="open_channel_settings">Open channel settings</string> -->
+      <string name="open_channel_settings">Apri le impostazioni del canale</string>
+
+       <!-- <string name="channel_update">Continuous update channel</string> -->
+      <string name="channel_update">Canale di aggiornamento continuo</string>
+
+       <!-- <string name="channel_info">Final info channel</string> -->
+      <string name="channel_info">Canale informazioni finali</string>
+
+       <!-- <string name="monday">Monday</string> -->
+      <string name="monday">Lunedì</string>
+
+       <!-- <string name="tuesday">Tuesday</string> -->
+      <string name="tuesday">Martedì</string>
+
+       <!-- <string name="wednesday">Wednesday</string> -->
+      <string name="wednesday">Mercoledì</string>
+
+       <!-- <string name="thursday">Thursday</string> -->
+      <string name="thursday">Giovedì</string>
+
+       <!-- <string name="friday">Friday</string> -->
+      <string name="friday">Venerdì</string>
+
+       <!-- <string name="saturday">Saturday</string> -->
+      <string name="saturday">Sabato</string>
+
+       <!-- <string name="sunday">Sunday</string> -->
+      <string name="sunday">Domenica</string>
+
+       <!-- <string name="wifiOnly">Only in WLAN</string> -->
+      <string name="wifiOnly">Solo in WLAN</string>
+
+       <!-- <string name="nonMeteredOnly">Only in non metered networks</string> -->
+      <string name="nonMeteredOnly"></string>
+
+       <!-- <string name="chargingOnly">Only while charging</string> -->
+      <string name="chargingOnly">Solo mentre in carica</string>
+
+       <!-- <string name="error_only_in_full_version">This function is only available in the pro version</string> -->
+      <string name="error_only_in_full_version">Questa funzione è disponibile solo nella versione pro</string>
+
+       <!-- <string name="auto_sync_manually_only">Disable automatic sync</string> -->
+      <string name="auto_sync_manually_only">Disabilita sincro automatica</string>
+
+       <!-- <string name="dark_app_theme">Use dark app theme</string> -->
+      <string name="dark_app_theme">Usa il tema scuro</string>
+
+       <!-- <string name="reset_tutorials">Reset tutorials</string> -->
+      <string name="reset_tutorials">Resetta tutorial</string>
+
+       <!-- <string name="restart_app">Restart app</string> -->
+      <string name="restart_app">Riavvia l\'app</string>
+
+       <!-- <string name="error_number">Please select a value between %1$d and %2$d!</string> -->
+      <string name="error_number">Selezionare un valore fra %1$d e %2$d!</string>
+
+       <!-- <string name="contacts">Contacts</string> -->
+      <string name="contacts">Contatti</string>
+
+       <!-- <string name="friends">Friends</string> -->
+      <string name="friends">Amici</string>
+
+       <!-- <string name="contact">Contact</string> -->
+      <string name="contact">Contatto</string>
+
+       <!-- <string name="friend">Friend</string> -->
+      <string name="friend">Amico</string>
+
+       <!-- <string name="details">Details</string> -->
+      <string name="details">Dettagli</string>
+
+       <!-- <string name="linked_contacts">Linked contacts</string> -->
+      <string name="linked_contacts">Contatti collegati</string>
+
+       <!-- <string name="contacts_waiting_for_sync">Contacts with new images</string> -->
+      <string name="contacts_waiting_for_sync">Contatti con nuove immagini</string>
+
+       <!-- <string name="info_contacts_waiting_for_sync_zero">No contacts with updated images are waiting for sync, click on \"Sync now\" to check your contacts now.</string> -->
+      <string name="info_contacts_waiting_for_sync_zero">Nessun contatto con immagini aggiornate attende la sincronizzazione, clicca su \"Sincro ora\" per verificare i tuoi contatti adesso.</string>
+
+       <!-- <string name="settings">Settings</string> -->
+      <string name="settings">Impostazioni</string>
+
+       <!-- <string name="export_result_message">Data has been exported.</string> -->
+      <string name="export_result_message">I dati sono stati esportati.</string>
+
+       <!-- <string name="export_problem_not_unique">%1$s contacts do not have a unique combination of their telephone numbers and names! You currently can\'t import those not unique contacts!</string> -->
+      <string name="export_problem_not_unique">%1$s contatti non hanno una combinazione univoca dei loro numeri di telefono e nomi! Al momento non puoi importare questi contatti non unici!</string>
+
+       <!-- <string name="export_import_problem_names">Following contacts are not unique (occurences in brackets):\n%1$s.</string> -->
+      <string name="export_import_problem_names">I seguenti contatti non sono unici (occorrenze nelle parentesi):\n%1$s.</string>
+
+       <!-- <string name="import_result_message">Contacts have been imported.\n%1$s phone contacts checked\n%2$s exported contacts found to import\n%3$d of %4$d auto syncs could be restored</string> -->
+      <string name="import_result_message">I contatti sono stati importati.\n%1$s contatti telefono verificati.\n%2$s contatti esportati trovati per import\n%3$d di %4$d sincro auto possono essere ripristinati</string>
+
+       <!-- <string name="lastUpdateToday">Last update: %1$s</string> -->
+      <string name="lastUpdateToday">Ultimo aggiornamento: %1$s</string>
+
+       <!-- <string name="lastUpdateDaysOld">Last update: %1$d days ago</string> -->
+      <string name="lastUpdateDaysOld">Ultimo aggiornamento: %1$d giorni fa</string>
+
+       <!-- <string name="info_premium_version">If you buy the premium version, you\'ll get an ad free version of this app and support the developer.</string> -->
+      <string name="info_premium_version">Se compri la versione premium, avrai una versione senza annunci e supporterai lo sviluppatore.</string>
+
+       <!-- <string name="import_facebook_friends">Import facebook friends</string> -->
+      <string name="import_facebook_friends">Importa amici da Facebook</string>
+
+       <!-- <string name="preparing_for_auto_sync">Preparing for auto sync...</string> -->
+      <string name="preparing_for_auto_sync">Preparazione per sincro auto...</string>
+
+       <!-- <string name="checking_contacts">Checking contact images...</string> -->
+      <string name="checking_contacts">Verificando le immagini contatto...</string>
+
+       <!-- <string name="updating_contacts">Updating contact images...</string> -->
+      <string name="updating_contacts">Aggiornando le immagini contatto...</string>
+
+       <!-- <string name="contacts_of_contacts_checked">%1$s of %2$s checked</string> -->
+      <string name="contacts_of_contacts_checked">%1$s di %2$s verificati</string>
+
+       <!-- <string name="ready_contacts">%s found</string> -->
+      <string name="ready_contacts">%s trovato</string>
+
+       <!-- <string name="click_to_finish">Click to update contacts</string> -->
+      <string name="click_to_finish">Clicca per aggiornare i contatti</string>
+
+       <!-- <string name="click_for_details">Click for details</string> -->
+      <string name="click_for_details">Clicca per dettagli</string>
+
+       <!-- <string name="updated_contacts">%1$s %2$s updated</string> -->
+      <string name="updated_contacts">%1$s %2$s aggiornati</string>
+
+       <!-- <string name="errors_occurred">Errors occurred</string> -->
+      <string name="errors_occurred">Si sono verificati degli errori</string>
+
+       <!-- <string name="error_checking_contacts_info">%1$d contacts had errors</string> -->
+      <string name="error_checking_contacts_info">%1$d contatti hanno errori</string>
+
+       <!-- <string name="error_checking_contact_single">%1$s:\n%2$s</string> -->
+      <string name="error_checking_contact_single">%1$s:\n%2$s</string>
+
+       <!-- <string name="error_auto_update_no_wifi">Network couldn\'t be checked because WLAN only is enabled in the settings and no WLAN connection was found!</string> -->
+      <string name="error_auto_update_no_wifi">La rete non può essere verificata perché solo la WLAN è attiva nelle impostazioni e nessuna connessione WLAN è stata trovata!</string>
+
+       <!-- <string name="error_auto_update_metered">Network couldn\'t be checked because device is connected to a metered network!</string> -->
+      <string name="error_auto_update_metered"></string>
+
+       <!-- <string name="error_auto_update_no_network">Network couldn\'t be checked because no connection was found!</string> -->
+      <string name="error_auto_update_no_network">Il Network non può essere verificato perché non è stata trovata alcuna connessione!</string>
+
+       <!-- <string name="error_auto_update_no_charging">Network couldn\'t be checked because only while charging is enabled in the settings and mobile is not charging currently!</string> -->
+      <string name="error_auto_update_no_charging">Il Network non può essere verificato perché è attiva l\'opzione di verifica solo in carica ed il telefono non è attualmente in carica!</string>
+
+       <!-- <string name="no_contact_with_enabled_auto_sync_title">No contact with enabled auto sync found</string> -->
+      <string name="no_contact_with_enabled_auto_sync_title">Nessun contatto è abilitato per la sincronizzazione automatica</string>
+
+       <!-- <string name="no_contact_with_enabled_auto_sync_info">Nothing to do!</string> -->
+      <string name="no_contact_with_enabled_auto_sync_info">Niente da fare!</string>
+
+       <!-- <string name="no_contact_with_enabled_auto_sync_text">No contact with enabled auto sync found - therefore, nothing to do!</string> -->
+      <string name="no_contact_with_enabled_auto_sync_text">Nessun contatto è abilitato per la sincronizzazione automatica - quindi, niente da fare!</string>
+
+       <!-- <string name="error_retrieving_facebook_id">Could not calculate facebook data.</string> -->
+      <string name="error_retrieving_facebook_id">Non posso calcolare i dati di Facebook.</string>
+
+       <!-- <string name="error_profile_not_found">Profile not found.</string> -->
+      <string name="error_profile_not_found">Profilo non trovato.</string>
+
+       <!-- <string name="precondition_error">Precondition error</string> -->
+      <string name="precondition_error">Errore precondizione</string>
+
+       <!-- <string name="expand_for_details">Expand for details</string> -->
+      <string name="expand_for_details">Espandi per dettagli</string>
+
+       <!-- <string name="error_details">Error details</string> -->
+      <string name="error_details">Dettagli errore</string>
+
+       <!-- <string name="auto_sync_started">Auto sync started...</string> -->
+      <string name="auto_sync_started">Sincronizzazione automatica avviata...</string>
+
+       <!-- <string name="auto_sync_finished">Auto sync finished</string> -->
+      <string name="auto_sync_finished">Sincronizzazione automatica terminata</string>
+
+       <!-- <string name="unknown_error">Unknown error</string> -->
+      <string name="unknown_error">Errore sconosciuto</string>
+
+       <!-- <string name="wrapped_error">%1$s - Error: %2$s</string> -->
+      <string name="wrapped_error">%1$s - Errore: %2$s</string>
+
+       <!-- <string name="update_info">Found new images</string> -->
+      <string name="update_info">Trovate nuove immagini</string>
+
+       <!-- <string name="ad_activity_info">This view is not shown in the pro version, in the pro version images are updated automatically. Consider going pro if you like this app.</string> -->
+      <string name="ad_activity_info">Questa vista non è mostrata nella versione pro, in cui le immagini sono aggiornate automaticamente. Prendi in considerazione di comprare la versione pro, se ti piace questa app.</string>
+
+       <!-- <string name="error_current_picture_could_not_be_loaded">Current picture couldn\'t be loaded</string> -->
+      <string name="error_current_picture_could_not_be_loaded">La foto corrente non può essere caricata</string>
+
+       <!-- <string name="error_current_pictures_hash_could_not_be_calculated">Current picture\'s hash couldn\'t be calculated</string> -->
+      <string name="error_current_pictures_hash_could_not_be_calculated">L\'hash della foto corrente non può essere calcolato</string>
+
+       <!-- <string name="info_rewared_video">Click continue to see an ad and to update your contact pictures afterwards</string> -->
+      <string name="info_rewared_video">Clicca continua per vedere un annuncio ed aggiornare le foto dei tuoi contatti</string>
+
+       <!-- <string name="error_already_syncing">Sync is already running!</string> -->
+      <string name="error_already_syncing">La sincronizzazione è già in corso!</string>
+
+       <!-- <string name="about">About</string> -->
+      <string name="about">Informazioni su</string>
+
+       <!-- <string name="stats">Statistics</string> -->
+      <string name="stats">Statistiche</string>
+
+       <!-- <string name="about_uses_libraries">Credits (Open Source, ...)</string> -->
+      <string name="about_uses_libraries">Ringraziamenti (Open Source, ...)</string>
+
+       <!-- <string name="about_rate">Rate app</string> -->
+      <string name="about_rate">Valuta app</string>
+
+       <!-- <string name="about_changelog">Changelog</string> -->
+      <string name="about_changelog">Changelog</string>
+
+       <!-- <string name="about_contributors_and_translators">Translators</string> -->
+      <string name="about_contributors_and_translators">Traduttori</string>
+
+       <!-- <string name="special_thanks_text">Special thanks goes to those people for helping with this app\'s translations:</string> -->
+      <string name="special_thanks_text">Un ringraziamento speciale va a quelle persone che mi hanno aiutato con le traduzioni di questa applicazione:</string>
+
+       <!-- <string name="info_auto_sync_finished_no_changes_found">No new contact images found.</string> -->
+      <string name="info_auto_sync_finished_no_changes_found">Nessuna nuova immagine contatto trovata.</string>
+
+       <!-- <string name="info_auto_sync_started_manually">Sync started in background, watch your notification for details</string> -->
+      <string name="info_auto_sync_started_manually">Sincronizzazione avviata in background, controlla le notifiche per i dettagli.</string>
+
+       <!-- <string name="updating_contact_images">Updating contact images...</string> -->
+      <string name="updating_contact_images">Aggiornamento delle immagini dei contatti...</string>
+
+       <!-- <string name="no_new_contact_image">No new contact images found - all contacts are up to date</string> -->
+      <string name="no_new_contact_image">Nessuna nuova immagine contatto trovata - tutti i contatti sono aggiornati</string>
+
+       <!-- <string name="errors_occurred_check_notification">Errors occurred, please check the notification</string> -->
+      <string name="errors_occurred_check_notification">Si sono verificati degli errori, per favore controlla la notifica</string>
+
+       <!-- <string name="new_contact_image">1 new contact image found - contact is ready to update</string> -->
+      <string name="new_contact_image">1 nuova immagine contatto trovata - il contatto è pronto per essere aggiornato</string>
+
+       <!-- <string name="new_contact_images">%1$d new contact images found - contacts are ready to update</string> -->
+      <string name="new_contact_images">%1$d nuove immagini contatto trovate - i contatti sono pronti per l\'aggiornamento</string>
+
+       <!-- <string name="action_import_group_main">Main methods</string> -->
+      <string name="action_import_group_main">Metodi principali</string>
+
+       <!-- <string name="action_import_default_title">Import friends</string> -->
+      <string name="action_import_default_title">Importa amici</string>
+
+       <!-- <string name="action_import_default_desc">Via login into your account</string> -->
+      <string name="action_import_default_desc">Login al tuo account</string>
+
+       <!-- <string name="action_import_csv_title">Import CSV file</string> -->
+      <string name="action_import_csv_title">Importa file CSV</string>
+
+       <!-- <string name="action_import_csv_desc">Via opening a prepared csv file</string> -->
+      <string name="action_import_csv_desc">Utilizzando un file CSV preformattato</string>
+
+       <!-- <string name="select_a_csv_file">Select a CSV file</string> -->
+      <string name="select_a_csv_file">Seleziona un file CSV</string>
+
+       <!-- <string name="csv_friends_checked">%1$d of %2$d valid CSV lines checked...</string> -->
+      <string name="csv_friends_checked">%1$d di %2$d linee valide del CSV convalidate...</string>
+
+       <!-- <string name="action_import_root_title">Import friends</string> -->
+      <string name="action_import_root_title">Importa amici</string>
+
+       <!-- <string name="action_import_root_desc">With ROOT + official facebook app</string> -->
+      <string name="action_import_root_desc">Con ROOT + applicazione ufficiale facebook</string>
+
+       <!-- <string name="action_import_group_others">Other methods</string> -->
+      <string name="action_import_group_others">Altri metodi</string>
+
+       <!-- <string name="action_import_htc_title">From phone contacts</string> -->
+      <string name="action_import_htc_title">Dai contatti del telefono</string>
+
+       <!-- <string name="action_import_htc_desc">HTC data import</string> -->
+      <string name="action_import_htc_desc">Importazione dati HTC</string>
+
+       <!-- <string name="export_htc_title">HTC Export</string> -->
+      <string name="export_htc_title">Esportazione HTC</string>
+
+       <!-- <string name="export_htc_info">This will replace or add a HTCData tag to your contacts note field and remove ANY old existing HTCData, do you want to continue?</string> -->
+      <string name="export_htc_info">Questo sostituirà o aggiungerà un\'etichetta HTCData al campo delle note dei tuoi contatti e rimuoverà QUALSIASI vecchio HTCData esistente, vuoi continuare?</string>
+
+       <!-- <string name="export_htc_text">Exporting data...</string> -->
+      <string name="export_htc_text">Esportazione dati...</string>
+
+       <!-- <string name="export_htc_result">%1$d HTC tags exported</string> -->
+      <string name="export_htc_result">%1$d etichette HTC esportate</string>
+
+       <!-- <string name="export_htc_result_error">%1$s\n%2$d HTC tags exported</string> -->
+      <string name="export_htc_result_error">%1$s\n%2$d etichette HTC esportate</string>
+
+       <!-- <string name="action_import_manual_title">Manual</string> -->
+      <string name="action_import_manual_title">Manuale</string>
+
+       <!-- <string name="action_import_manual_desc">Add single contacts manually</string> -->
+      <string name="action_import_manual_desc">Aggiungi singoli contatti manualmente</string>
+
+       <!-- <string name="import_contacts_title">Data import</string> -->
+      <string name="import_contacts_title">Importa dati</string>
+
+       <!-- <string name="import_contacts_text">Importing data...</string> -->
+      <string name="import_contacts_text">Importazione dati...</string>
+
+       <!-- <string name="import_contact_image">Image import</string> -->
+      <string name="import_contact_image">Importa immagine</string>
+
+       <!-- <string name="import_contact_image_text">Importing image...</string> -->
+      <string name="import_contact_image_text">Importando immagine...</string>
+
+       <!-- <string name="import_contacts_result">%1$d new facebook friends could be imported.\n%2$d friends already existed.</string> -->
+      <string name="import_contacts_result">%1$d nuovi amici Facebook possono essere importati.\n%2$d amici già esistenti.</string>
+
+       <!-- <string name="import_contacts_result_with_exception">%1$s\n%2$d new facebook friends could be imported.\n%3$d friends already existed.</string> -->
+      <string name="import_contacts_result_with_exception">%1$s\n%2$d nuovi amici Facebook possono essere importati.\n%3$d amici già esistenti.</string>
+
+       <!-- <string name="setup_auto_sync">Setup links</string> -->
+      <string name="setup_auto_sync">Imposta collegamenti</string>
+
+       <!-- <string name="reset_link">Reset link</string> -->
+      <string name="reset_link">Reimposta collegamenti</string>
+
+       <!-- <string name="info_linked_contacts">Linked contacts are contacts whose images will be checked on each automatic sync.\n\nYou currently have %1$d linked contacts.\n\nLink more contacts via the link button or via the contacts/friends pages.</string> -->
+      <string name="info_linked_contacts">I contatti collegati sono contatti le cui immagini saranno verificate ad ogni sincronizzazione automatica.\n\nAttualmente hai %1$d contatti collegati.\n\nCollega altri contatti tramite il tasto collegamento o attraverso le pagine contatti/amici.</string>
+
+       <!-- <string name="error_permission_to_read_contacts_needed">Without this permission this app is not able to read and update the contacts on your phone, so you must grant this permission to use this app.</string> -->
+      <string name="error_permission_to_read_contacts_needed">Senza questo permesso l\'app non è capace di leggere e aggiornare i contatti nel tuo telefono, quindi devi garantire questo permesso per usare l\'app.</string>
+
+       <!-- <string name="dlg_import_facebook_title">Importing facebook friends</string> -->
+      <string name="dlg_import_facebook_title">Importazione amici Facebook</string>
+
+       <!-- <string name="step_1">Step 1/2</string> -->
+      <string name="step_1">Passo 1/2</string>
+
+       <!-- <string name="step_2">Step 2/2</string> -->
+      <string name="step_2">Passo 2/2</string>
+
+       <!-- <string name="dlg_import_facebook_text_step_1">Importing list of friends</string> -->
+      <string name="dlg_import_facebook_text_step_1">Importando lista di amici</string>
+
+       <!-- <string name="dlg_import_facebook_text_step_2">Calculating facebook data of each new friend</string> -->
+      <string name="dlg_import_facebook_text_step_2">Calcolando i dati di Facebook per ogni nuovo amico</string>
+
+       <!-- <string name="dlg_import_facebook_status_step1">%1$d friends found</string> -->
+      <string name="dlg_import_facebook_status_step1">%1$d amici trovati</string>
+
+       <!-- <string name="dlg_import_facebook_status_step2">Friend %1$d / %2$d finished</string> -->
+      <string name="dlg_import_facebook_status_step2">Amico %1$d / %2$d completato</string>
+
+       <!-- <string name="dlg_import_facebook_infos_short">Grab some coffee, sadly, this needs some time...</string> -->
+      <string name="dlg_import_facebook_infos_short">Puoi prendere un caffè: putroppo, questa operazione richiede un po\' di tempo...</string>
+
+       <!-- <string name="dlg_import_facebook_infos_long">• Don\'t rotate the device during step one! This step will restart it\'s work otherwise as it cannot be restored.\n• Calculating data must be done once per friend only\n• Already known friends will automatically be skipped to save time\n• Screen will stay on during this process and internet connection is needed</string> -->
+      <string name="dlg_import_facebook_infos_long">• Non ruotare l\'apparecchio durante lo step uno! Questo step verrà riavviato altrimenti non potrà essere memorizzato.\n• Il calcolo dei dati deve essere fatto una volta sola per amico\n• Gli amici già conosciuti saranno automaticamente saltati per risparmiare tempo\n• Lo schermo resterà acceso durante questo processo e sarà necessaria una connessione ad internet</string>
+
+       <!-- <string name="info_status">Status</string> -->
+      <string name="info_status">Stato</string>
+
+       <!-- <string name="add_contact">Add contact</string> -->
+      <string name="add_contact">Aggiungi contatto</string>
+
+       <!-- <string name="add">Add</string> -->
+      <string name="add">Aggiungi</string>
+
+       <!-- <string name="check">Check</string> -->
+      <string name="check">Verifica</string>
+
+       <!-- <string name="add_contact_input">Input</string> -->
+      <string name="add_contact_input">Input</string>
+
+       <!-- <string name="add_contact_id">ID:</string> -->
+      <string name="add_contact_id">ID:</string>
+
+       <!-- <string name="add_contact_name">Name</string> -->
+      <string name="add_contact_name">Nome</string>
+
+       <!-- <string name="add_contact_status_found">Contact found</string> -->
+      <string name="add_contact_status_found">Contatto trovato</string>
+
+       <!-- <string name="add_contact_status_checking">Checking data...</string> -->
+      <string name="add_contact_status_checking">Verificando dati...</string>
+
+       <!-- <string name="add_contact_error_only_valid_can_be_added">Check a contact first and only click add, if the contact status is valid and an image is displayed!</string> -->
+      <string name="add_contact_error_only_valid_can_be_added">Verifica prima un contatto e clicca aggiungi solo se lo stato del contatto è valido e viene mostrata un\'immagine!</string>
+
+       <!-- <string name="add_contact_error_empty_input">Can\'t add empty data! Add data and name before adding a contact.</string> -->
+      <string name="add_contact_error_empty_input">Non puoi aggiungere un dato vuoto! Aggiungi dato e nome prima di aggiungere un contatto.</string>
+
+       <!-- <string name="executed_checks">Images checked</string> -->
+      <string name="executed_checks">Immagini verificate</string>
+
+       <!-- <string name="executed_updates">Images updated</string> -->
+      <string name="executed_updates">Immagini caricate</string>
+
+       <!-- <string name="executed_auto_snycs">Executed syncs</string> -->
+      <string name="executed_auto_snycs">Sincro eseguite</string>
+
+       <!-- <string name="execute">Execute</string> -->
+      <string name="execute">Esegui</string>
+
+       <!-- <string name="executed">\'%1$s\' executed</string> -->
+      <string name="executed">\'%1$s\' eseguiti</string>
+
+       <!-- <string name="last_check">Last check</string> -->
+      <string name="last_check">Ultima verifica</string>
+
+       <!-- <string name="last_auto_sync">Last change</string> -->
+      <string name="last_auto_sync">Ultimo cambio</string>
+
+       <!-- <string name="last_auto_sync_time">%1$s %2$s</string> -->
+      <string name="last_auto_sync_time">%1$s %2$s</string>
+
+       <!-- <string name="never">Never</string> -->
+      <string name="never">Mai</string>
+
+       <!-- <string name="image_format">Format</string> -->
+      <string name="image_format">Formato</string>
+
+       <!-- <string name="image_tint">Tint</string> -->
+      <string name="image_tint">Colore</string>
+
+       <!-- <string name="image_tint_color">Tint color</string> -->
+      <string name="image_tint_color">Tinta di colore</string>
+
+       <!-- <string name="format_orig">Original</string> -->
+      <string name="format_orig">Originale</string>
+
+       <!-- <string name="format_square">Square</string> -->
+      <string name="format_square">Quadrato</string>
+
+       <!-- <string name="format_circle">Circle</string> -->
+      <string name="format_circle">Rotondo</string>
+
+       <!-- <string name="calc_similarities">Calculating similarities\n%1$d / %2$d done</string> -->
+      <string name="calc_similarities">Calcolando similitudini\n%1$d / %2$d fatto</string>
+
+       <!-- <string name="best_simil_from_to">Best similarity %1$d%% - %2$d%%</string> -->
+      <string name="best_simil_from_to">Miglior similitudini %1$d%% - %2$d%%</string>
+
+       <!-- <string name="save_auto_sync">Link %1$d / %2$d contacts</string> -->
+      <string name="save_auto_sync">Collegati %1$d / %2$d contatti</string>
+
+       <!-- <string name="select_friend">Select friend</string> -->
+      <string name="select_friend">Seleziona amico</string>
+
+       <!-- <string name="select_contact">Select contact</string> -->
+      <string name="select_contact">Seleziona contatto</string>
+
+       <!-- <string name="changed_contacts">Changed contacts</string> -->
+      <string name="changed_contacts">Contatti cambiati</string>
+
+       <!-- <string name="for_link">For link</string> -->
+      <string name="for_link">Per collegamento</string>
+
+       <!-- <string name="phone_numbers">Phone numbers</string> -->
+      <string name="phone_numbers">Numeri di telefono</string>
+
+       <!-- <string name="contact_types">Contact types</string> -->
+      <string name="contact_types">Tipi di contatto</string>
+
+       <!-- <string name="name">Name</string> -->
+      <string name="name">Nome</string>
+
+       <!-- <string name="friend_already_exists">Friend already exists (%1$s)</string> -->
+      <string name="friend_already_exists">Amico già esistente (%1$s)</string>
+
+       <!-- <string name="friend_added">Friend added</string> -->
+      <string name="friend_added">Amico aggiunto</string>
+
+       <!-- <string name="auto_sync_pending_changes_question">Last check showed that %1$d friends have new images and have not been updated yet. Do you just want to update those or do you want to recheck all contacts?</string> -->
+      <string name="auto_sync_pending_changes_question">L\'ultima verifica mostra che %1$d amici hanno nuove immagini e non sono ancora state aggiornate.  Vuoi aggiornare solamente questi o vuoi riverificare tutti i contatti?</string>
+
+       <!-- <string name="auto_sync_pending_changes_update">Update</string> -->
+      <string name="auto_sync_pending_changes_update">Aggiorna</string>
+
+       <!-- <string name="auto_sync_pending_changes_recheck">Recheck</string> -->
+      <string name="auto_sync_pending_changes_recheck">Riverifica</string>
+
+       <!-- <string name="error_history_image_could_not_be_created">History image couldn\'t be created</string> -->
+      <string name="error_history_image_could_not_be_created">La cronologia immagini non può essere creata</string>
+
+       <!-- <string name="history_images">History images</string> -->
+      <string name="history_images">Cronologia immagini</string>
+
+       <!-- <string name="empty">Empty</string> -->
+      <string name="empty">Vuoto</string>
+
+       <!-- <string name="replacing_image_title">History image</string> -->
+      <string name="replacing_image_title">Cronologia immagine</string>
+
+       <!-- <string name="replacing_image">Replacing image...</string> -->
+      <string name="replacing_image">Sostituzione immagine...</string>
+
+       <!-- <string name="replace_only">Replace only</string> -->
+      <string name="replace_only">Solo sostituzione</string>
+
+       <!-- <string name="replace_and_history">Replace + add to history</string> -->
+      <string name="replace_and_history">Sostituzione + aggiunta alla cronologia</string>
+
+       <!-- <string name="use_last_facebook_account">Reuse last profile</string> -->
+      <string name="use_last_facebook_account">Riutilizza ultimo profilo</string>
+
+       <!-- <string name="use_last_facebook_account_info">Do you want to reuse the last used profile?</string> -->
+      <string name="use_last_facebook_account_info">Vuoi riutilizzare l\'ultimo profilo usato?</string>
+
+       <!-- <string name="login_to_facebook">Login to facebook</string> -->
+      <string name="login_to_facebook">Collegati a Facebook</string>
+
+       <!-- <string name="login_to_facebook_info"><b>Why do I need to login?</b>\nYou need to login to facebook so that my app can retrieve a list of all your friends.\n\n<b>Privacy and data collection</b>\n* the app only accesses your list of friends and nothing more - there is an option for manually adding friends without facebook login\n* the app does not do anything else (neither collect data, nor store data, nor send data anywhere)\n* data processing is done on the device only</string> -->
+      <string name="login_to_facebook_info"><b>Perché è necessario effettuare il login?</b>\nE\' necessario effettuare il login in Facebook così la mia app può ricavare la lista dei tuoi amici.\n\n<b>Privacy e collezione dei dati</b>\n* l\'app accederà solo alla lista degli amici e null\'altro - c\'è un opzione per aggiungere gli amici manualmente senza accedere in Facebook\n* l\'app non farà altro (non collezionerà dati, non conserverà dati, non invierà dati)\n* i dati verranno processati solo sul dispositivo</string>
+
+       <!-- <string name="import_csv">CSV Import</string> -->
+      <string name="import_csv">Importazione CSV</string>
+
+       <!-- <string name="import_csv_info">Import via a simple csv file. The file should contain \"id;name\" pairs or \"link;name\" pairs. The names are optional. E.g.:\n\n<i>4;Mark Zuckerberg\nwww.facebook.com/zuck;Mark Zuckerberg</i>\n\n</string> -->
+      <string name="import_csv_info">Importa tramite un semplice file CSV. Il file dovrò contenere la coppia \"id;name\" oppure la coppia \"link;name\". I nomi sono opzionali. Es:\n\n<i>4;Mark Zuckerberg\nwww.facebook.com/zuck;Mark Zuckerberg</i>\n</string>
+
+       <!-- <string name="next">Next</string> -->
+      <string name="next">Avanti</string>
+
+       <!-- <string name="change_profile">Change profile</string> -->
+      <string name="change_profile">Cambia profilo</string>
+
+       <!-- <string name="info_import_service_title">Importing friends</string> -->
+      <string name="info_import_service_title">Importazione amici</string>
+
+       <!-- <string name="info_import_service_text">Import started, this needs some time. Watch your notifications...\n\nYou can exit this app in the meantime...</string> -->
+      <string name="info_import_service_text">L\'importazione è cominciata, questa richiederà un po\' di tempo. Controlla le tue notifiche...\n\nPuoi uscire dall\'app nel frattempo...</string>
+
+       <!-- <string name="info_import_notification_title">Importing friends...</string> -->
+      <string name="info_import_notification_title">Importazione amici...</string>
+
+       <!-- <string name="info_import_notification_title0">1/2: %1$d friends found</string> -->
+      <string name="info_import_notification_title0">1/2: %1$d amici trovati</string>
+
+       <!-- <string name="info_import_notification_text0">Searching for friends</string> -->
+      <string name="info_import_notification_text0">Ricerca amici</string>
+
+       <!-- <string name="info_import_notification_title1">2/2: Calculating facebook data</string> -->
+      <string name="info_import_notification_title1">2/2: Calcolo dati facebook</string>
+
+       <!-- <string name="info_import_notification_text1">%1$d/%2$d done</string> -->
+      <string name="info_import_notification_text1">%1$d/%2$d fatto</string>
+
+       <!-- <string name="info_import_notification_title2">Import done</string> -->
+      <string name="info_import_notification_title2">Importazione eseguita</string>
+
+       <!-- <string name="info_import_notification_text2">New: %1$d / Already existed: %2$d</string> -->
+      <string name="info_import_notification_text2">Nuovo: %1$d / Già esistente: %2$d</string>
+
+       <!-- <string name="info_import_notification_blocked">\n\nSadly loading friends profiles is currently blocked - please try again later.\nThe import process is still under development.</string> -->
+      <string name="info_import_notification_blocked">\n\nSfortunatamente il caricamento dei profili degli amici è al momento bloccato - riprova più tardi.\nIl processo d\'importazione è ancora in sviluppo.</string>
+
+       <!-- <string name="info_import_not_logged_in">\n\nLogin cookie expired - cookie deleted, please restart the import and login again.</string> -->
+      <string name="info_import_not_logged_in">\nCookie di login scaduti - cookie cancellati, riavvia l\'importazione e riesegui il login.</string>
+
+       <!-- <string name="info_import_error">\n\nSadly following errors occured: %1$s</string> -->
+      <string name="info_import_error">\n\nPurtroppo sono occorsi i seguenti errori: %1$s</string>
+
+       <!-- <string name="dialog_preparing_import_title">Preparing</string> -->
+      <string name="dialog_preparing_import_title">In preparazione</string>
+
+       <!-- <string name="dialog_preparing_import_text">Preparing for import...</string> -->
+      <string name="dialog_preparing_import_text">Preparazione per importazione</string>
+
+       <!-- <string name="import_images_title">Image import</string> -->
+      <string name="import_images_title">Importazione immagine</string>
+
+       <!-- <string name="import_images_text">Importing images...</string> -->
+      <string name="import_images_text">Importando immagini...</string>
+
+       <!-- <string name="exit">Exit</string> -->
+      <string name="exit">Esci</string>
+
+       <!-- <string name="info_root_needed_title">Root rights</string> -->
+      <string name="info_root_needed_title">Diritti di root</string>
+
+       <!-- <string name="info_root_needed_text">This app needs ROOT rights, otherwise it can\'t work. Do you want to grant ROOT permissions?</string> -->
+      <string name="info_root_needed_text">Questa app ha bisogno dei diritti di root, altrimenti non può funzionare. Vuoi garantire i permessi di root?</string>
+
+       <!-- <string name="info_root_needed_but_not_found_title">Root not found</string> -->
+      <string name="info_root_needed_but_not_found_title">Root non trovato</string>
+
+       <!-- <string name="info_root_needed_but_not_found_text">This app needs ROOT rights, but your phone is not rooted. Sorry, but you can\'t use this app.</string> -->
+      <string name="info_root_needed_but_not_found_text">Questa app ha bisogno dei diritti di root, ma il tuo telefono non è rooted. Purtroppo non potrai utilizzare questa app.</string>
+
+       <!-- <string name="friend_has_no_image">This friend does not have an image</string> -->
+      <string name="friend_has_no_image">Questo amico non ha un\'immagine</string>
+
+       <!-- <string name="info_whatsapp_download_image_title">Image download</string> -->
+      <string name="info_whatsapp_download_image_title">Immagine scaricata</string>
+
+       <!-- <string name="info_whatsapp_download_image_text"><![CDATA[You must download the images through WhatsApp, only afterwards this app can do it\'s work.</p><h1>Informationen</h1><b><font color="#31B404">This app can recognise every contact of WhatsApp but it can only find manually downloaded images!</font></b><h1>Image download</h1><ol><li>Whenever you see a new image in a WhatsApp conversation, just click on the contact on top.</li><li>This will open the contact details in WhatsApp.</li><li>Depending on your WhatsApp version that\'s all you have to do to force WhatsApp to download the large contact image.</li><li>In older versions, you have to click on the image to show it in big, only afterwards WhatsApp downloads the picture. Just try it out to find out what is necessary in your WhatsApp version.</li></ol><h1>Information</h1><p>Downloaded images are import on every app start and before any sync.</p>]]></string> -->
+      <string name="info_whatsapp_download_image_text"><![CDATA[Devi scaricare le immagini tramite Whatsapp, solo in seguito questa app potrà svolgere il lavoro.</p><h1>Informazione</h1><b><font color="#31B404">Questa app può riconoscere ogni contatto di Whatsapp ma può trovare solo manualmente le immagini scaricate!</font></b><h1>Immagine scaricata</h1><ol><li>Quando vedi una nuova immagine in una conversazione di WhatsApp, clicca sul contatto in alto.</li><li>Questo aprirà i dettagli del contatto in WhatsApp</li><li>Dipende dalla versione del tuo WhatsApp se devi forzare WhatsApp a scaricare l\'immagine di contatto grande.</li><li>Nelle vecchie versioni, devi cliccare sull\'immagine per mostrarla grande, solo in seguito WhatsApp scaricherà la foto. Fai una prova per capire cosa è necessario fare con la tua versione di WhatsApp.</li></ol><h1>Informazione</h1><p>Le immagini scaricate vengono importate ogni volta che avvii l\'app e prima di ogni sincronizzazione.</p>]]></string>
+
+       <!-- <string name="open_in">Open in %1$s</string> -->
+      <string name="open_in">Aperto in %1$s</string>
+
+       <!-- <string name="open_contact">Open contact</string> -->
+      <string name="open_contact">Apri contatto</string>
+
+       <!-- <string name="info_root_is_required_title">Root</string> -->
+      <string name="info_root_is_required_title">Root</string>
+
+       <!-- <string name="info_root_is_required_text">To use this app, root is required. If you don\'t have a rooted device or don\'t want to give this app root permissions you can\'t use this app.</string> -->
+      <string name="info_root_is_required_text">Per usare questa app, è necessario il root. Se non hai un telefono con root, o non vuoi dare a questa app i permessi di root, non puoi usare questa app.</string>
+
+       <!-- <string name="setup_slide1_title">Welcome</string> -->
+      <string name="setup_slide1_title">Benvenuto</string>
+
+       <!-- <string name="setup_slide1_text">Welcome to %s</string> -->
+      <string name="setup_slide1_text">Benvenuto a %s</string>
+
+       <!-- <string name="setup_slide2_title">Permission</string> -->
+      <string name="setup_slide2_title">Permesso</string>
+
+       <!-- <string name="setup_slide2_text">This app needs permissions to read from and write to your contacts. Please click the button and grant this permission.</string> -->
+      <string name="setup_slide2_text">Questa app richiede dei permessi per leggere e scrivere sui tuoi contatti. Per favore tocca il tasto e consenti questo permesso.</string>
+
+       <!-- <string name="setup_slide3_title">Tutorials</string> -->
+      <string name="setup_slide3_title">Spiegazioni</string>
+
+       <!-- <string name="setup_slide3_text">If you don\'t know what to do, click the question mark icon to show a tutorial again. Nearly every page has one.</string> -->
+      <string name="setup_slide3_text">Se non sai cosa fare, clicca sul punto di domanda e apparirà nuovamente la spiegazione. Tendenzialmente ogni pagina ne ha una.</string>
+
+       <!-- <string name="setup_slide4_title">Enjoy</string> -->
+      <string name="setup_slide4_title">Buon divertimento</string>
+
+       <!-- <string name="setup_slide4_text">You\'re done, start using this app and enjoy it.</string> -->
+      <string name="setup_slide4_text">Hai finito, inizia ad usare quest\'app e divertiti.</string>
+
+       <!-- <string name="setup_slide_root_title">Root</string> -->
+      <string name="setup_slide_root_title">Root</string>
+
+       <!-- <string name="setup_slide_root_text">This app needs root permissions to read images from %1$s. Please click the button and grant this permission.</string> -->
+      <string name="setup_slide_root_text">Quest\'app richiede permessi di root per leggere immagini %1$s. Per favore tocca sul tasto e consenti questo permesso.</string>
+
+       <!-- <string name="info">Info</string> -->
+      <string name="info">Info</string>
+
+       <!-- <string name="info_faqs">Help</string> -->
+      <string name="info_faqs">Aiuto</string>
+
+       <!-- <string name="title_faqs">FAQ</string> -->
+      <string name="title_faqs">FAQ</string>
+
+       <!-- <string name="bt_faqs">Show FAQ</string> -->
+      <string name="bt_faqs">Mostra FAQ</string>
+
+       <!-- <string name="bt_contact">Contact</string> -->
+      <string name="bt_contact">Contatto</string>
+
+       <!-- <string name="info_steps">How it works</string> -->
+      <string name="info_steps">Come funziona</string>
+
+       <!-- <string name="info_step2_import_friends">%1$d) Import friends</string> -->
+      <string name="info_step2_import_friends">%1$d) importa amici</string>
+
+       <!-- <string name="info_step3_auto_link">%1$d) Auto link contacts with friends</string> -->
+      <string name="info_step3_auto_link">%1$d) Collegamento automatico contatti con amici</string>
+
+       <!-- <string name="info_step3_download_images">%1$d) Manually download images</string> -->
+      <string name="info_step3_download_images">%1$d) Immagini scaricate manualmente</string>
+
+       <!-- <string name="info_step4_start_sync">%1$d) Start the sync or wait for the auto sync</string> -->
+      <string name="info_step4_start_sync">%1$d) Inizia la sincronizzazione o attenti per l\'auto sincro</string>
+
+       <!-- <string name="showcase_main_1"><![CDATA[<b><font color="#FF0000">1/5 Import</font></b><br/>Start here by importing your friends...]]></string> -->
+      <string name="showcase_main_1"><![CDATA[<b><font color="#FF0000">1/5 Importazione</font></b><br/>Comincia qui ad importare i tuoi amici da Facebook...]]></string>
+
+       <!-- <string name="showcase_main_2"><![CDATA[<b><font color="#FF0000">2/5 Linking</font></b><br/>... and continue here by linking your contacts with your friends (tell the app which contact should be synced with which friend)]]></string> -->
+      <string name="showcase_main_2"><![CDATA[<b><font color="#FF0000">2/5 Collegando</font></b><br/>... e continua qui collegando i tuoi contatti con i tuoi amici (di all\'app quale contatto dovrebbe essere sincronizzato con quale amico)]]></string>
+
+       <!-- <string name="showcase_main_3"><![CDATA[<b><font color="#FF0000">3/5 Syncing</font></b><br/>Start a manual auto sync here if you want afterwards.]]></string> -->
+      <string name="showcase_main_3"><![CDATA[<b><font color="#FF0000">3/5 Sincronizzando</font></b><br/>Inizia una sincro automatica manualmente successivamente.]]></string>
+
+       <!-- <string name="showcase_main_4"><![CDATA[<b><font color="#FF0000">4/5 Info</font></b><br/>Here you see some data, you can click on them....]]></string> -->
+      <string name="showcase_main_4"><![CDATA[<b><font color="#FF0000">4/5 Info</font></b><br/>Qui ci sono alcuni dati, puoi cliccarci sopra...]]></string>
+
+       <!-- <string name="showcase_main_5"><![CDATA[<b><font color="#FF0000">5/5 Info</font></b><br/>... and here you find additional pages.]]></string> -->
+      <string name="showcase_main_5"><![CDATA[<b><font color="#FF0000">5/5 Info</font></b><br/>... e qui trovi pagine aggiuntive.]]></string>
+
+       <!-- <string name="showcase_list_1"><![CDATA[<b><font color="#FF0000">1/2 Link</font></b><br/>Click on the link symbol next to a contact/friend to link it with a contact resp. friend]]></string> -->
+      <string name="showcase_list_1"><![CDATA[<b><font color="#FF0000">1/2 Collegamento</font></b><br/>Clicca sul simbolo collegamento vicino al contatto/amico per collegarlo col rispettivo amico]]></string>
+
+       <!-- <string name="showcase_list_2"><![CDATA[<b><font color="#FF0000">2/2 Details</font></b><br/>Click on a contact/friend to show further details]]></string> -->
+      <string name="showcase_list_2"><![CDATA[<b><font color="#FF0000">2/2 Dettagli</font></b><br/>Clicca su un contatto/amico per mostrare dettagli aggiuntivi]]></string>
+
+       <!-- <string name="showcase_simil_1"><![CDATA[<b><font color="#FF0000">1/3 Mark</font></b><br/>To mark a suggested link as correct, click the left part of a row...]]></string> -->
+      <string name="showcase_simil_1"><![CDATA[<b><font color="#FF0000">1/3 Mark</font></b><br/>Per marcare un collegamento suggerito come corretto, clicca sulla parte sinistra della riga...]]></string>
+
+       <!-- <string name="showcase_simil_2"><![CDATA[<b><font color="#FF0000">2/3 Select alternative friend</font></b><br/>... click the right part of a row to select an alternative friend to link the contact with]]></string> -->
+      <string name="showcase_simil_2"><![CDATA[<b><font color="#FF0000">2/3 Seleziona amico alternativo</font></b><br/>... clicca sulla parte destra della riga per selezionare un amico alternativo da collegare al contatto]]></string>
+
+       <!-- <string name="showcase_simil_3"><![CDATA[<b><font color="#FF0000">3/3 Tip</font></b><br/>Click on a header to (de-)select all sub items at once]]></string> -->
+      <string name="showcase_simil_3"><![CDATA[<b><font color="#FF0000">3/3 Trucco</font></b><br/>Clicca sulla testata per (de-)selezionare tutti i sotto oggetti in una volta]]></string>
+
+       <!-- <string name="showcase_contact_details_1"><![CDATA[<b><font color="#FF0000">1/3 History</font></b><br/>If the history is enabled in the settings, you see the history images here]]></string> -->
+      <string name="showcase_contact_details_1"><![CDATA[<b><font color="#FF0000">1/3 Cronologia</font></b><br/>Se la cronologia è abilitata nelle impostazioni, vedrai qui la cronologia immagini]]></string>
+
+       <!-- <string name="showcase_contact_details_2"><![CDATA[<b><font color="#FF0000">2/3 History</font></b><br/>You can click the history image to see some details and actions]]></string> -->
+      <string name="showcase_contact_details_2"><![CDATA[<b><font color="#FF0000">2/3 Cronologia</font></b><br/>Puoi cliccare sull\'immagine in cronologia per vedere alcuni dettagli ed azioni]]></string>
+
+       <!-- <string name="showcase_contact_details_3"><![CDATA[<b><font color="#FF0000">3/3 Image</font></b><br/>Click the image to show it in big]]></string> -->
+      <string name="showcase_contact_details_3"><![CDATA[<b><font color="#FF0000">3/3 Immagine</font></b><br/>Clicca sull\'immagine per vederla ingrandita]]></string>
+
+       <!-- <string name="help_add_contact_facebook_text"><![CDATA[<p>Write the url of a friends profile into the input field, namely the url of your friends main page (or the facebook profile name (this is NOT your friends name on facebook!) or id directly). Based on the profile of facebook founder Mark Zuckerberg I demonstrate all valid input formats:<ol><li>https://www.facebook.com/zuck</li><li>www.facebook.com/zuck</li><li>zuck</li><li>4</li></ol></p><p><b><font color="#FF0000">Important: Sadly, this will only work with public profiles or with the ID</font></b></p>]]></string> -->
+      <string name="help_add_contact_facebook_text"><![CDATA[<p>Scrivi l\'URL di un profilo di amici nel campo di inserimento, vale a dire l\'url della pagina principale dei tuoi amici (o il nome del profilo Facebook (questo NON è il nome dei tuoi amici su Facebook!) o direttamente l\'ID). In base al profilo del fondatore di Facebook, Mark Zuckerberg, dimostro tutti i formati di input validi:<ol><li>https://www.facebook.com/zuck</li><li>www.facebook.com/zuck</li><li>zuck</li><li>4</li></ol></p><p><b><font color="#FF0000">Importante: Purtroppo, questo funzionerà solo con i profili pubblici o con l\'ID</font></b></p>]]></string>
+
+       <!-- <string name="dialog_info_root_title">Info root import</string> -->
+      <string name="dialog_info_root_title">Info importazione root</string>
+
+       <!-- <string name="dialog_info_root_text1">Preconditions</string> -->
+      <string name="dialog_info_root_text1">Precondizioni</string>
+
+       <!-- <string name="dialog_info_root_text2">To use this function, following 3 preconditions must be met:</string> -->
+      <string name="dialog_info_root_text2">Per usare questa funzione, le seguenti 3 precondizioni devono essere adempite:</string>
+
+       <!-- <string name="dialog_info_root_text3">• Either the original facebook app or the original facebook messanger must be installed</string> -->
+      <string name="dialog_info_root_text3">• L\'applicazione di Facebook o di Facebook Messenger devono essere installate</string>
+
+       <!-- <string name="dialog_info_root_text4">• Your phone must be rooted (use the normal import otherwise!)</string> -->
+      <string name="dialog_info_root_text4">• Il telefono deve avere i diritti di root (altrimenti usa il normale metodo di importazione)</string>
+
+       <!-- <string name="dialog_info_root_text5">• You must be logged into the original facebook app</string> -->
+      <string name="dialog_info_root_text5">• Devi essere loggato nell\'applicazione di Facebook</string>
+
+       <!-- <string name="my_profile">Own profile</string> -->
+      <string name="my_profile">Proprio profilo</string>
+
+       <!-- <string name="info_my_profile_not_exists">You have not set up a profile in your contacts yet, please do this first. This must be done in your android contacts app. Only afterwards you can sync your own profile image here.</string> -->
+      <string name="info_my_profile_not_exists">Non hai ancora settato un profilo nei tuoi contatti, esegui prima quest\'azione. Ciò deve essere eseguito nella rubrica del tuo telefono. Solo dopo potrai sincronizzare la tua immagine personale qui.</string>
+
+       <!-- <string name="auto_import_info">%1$d links have been imported from your contacts automatically</string> -->
+      <string name="auto_import_info">%1$d collegamenti sono stati importanti automaticamente dai tuoi contatti.</string>
+
+       <!-- <string name="name_not_found_rename_it">Name not found. Rename it manually please.</string> -->
+      <string name="name_not_found_rename_it">Nome non trovato. Rinominalo manualmente.</string>
+
+       <!-- <string name="auto_export">Automatic export</string> -->
+      <string name="auto_export">Esportazione automatica</string>
+
+       <!-- <string name="auto_export_info">If enabled, CoSy will automatically export it\'s contact to friend linking as a custom field to your contacts.</string> -->
+      <string name="auto_export_info">Se abilitato, CoSy esporterà automaticamente il proprio parametro di collegamento all\'amico come campo personalizzato nel tuo contatto.</string>
+
+       <!-- <string name="error_occurred">Error</string> -->
+      <string name="error_occurred">Errore</string>
+
+       <!-- <string name="advanced_functions">Special functions (Possibly dangerous!)</string> -->
+      <string name="advanced_functions">Funzioni speciali (Pericolose!)</string>
+
+       <!-- <string name="delete_all_linked_contact_images">Delete contact images from ALL currently linked contacts</string> -->
+      <string name="delete_all_linked_contact_images">Elimina le immagini dei contatti da TUTTI i contatti attualmente collegati</string>
+
+       <!-- <string name="privacy_information_feedback_title">Send feedback</string> -->
+      <string name="privacy_information_feedback_title">Invia feedback</string>
+
+       <!-- <string name="privacy_information_feedback_text">Do you want to append the log file?</string> -->
+      <string name="privacy_information_feedback_text">Vuoi apporre al file di log?</string>
+
+       <!-- <string name="privacy_information_feedback_append">Append</string> -->
+      <string name="privacy_information_feedback_append">Aggiungi</string>
+
+       <!-- <string name="privacy_information_feedback_dont_append">Don\'t append</string> -->
+      <string name="privacy_information_feedback_dont_append">Non aggiungere</string>
+
+       <!-- <string name="exporting_data">Exporting data...</string> -->
+      <string name="exporting_data">Esportazione dati...</string>
+
+       <!-- <string name="info_logging_disabled">Logging disabled and log file cleared!</string> -->
+      <string name="info_logging_disabled">Logging disattivato e file di log svuotato!</string>
+</resources>

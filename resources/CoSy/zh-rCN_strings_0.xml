@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+       <!-- <string name="contacts_account_can_only_be_added_automatically">This account is managed automatically by CoSy and can\'t be added manually!</string> -->
+      <string name="contacts_account_can_only_be_added_automatically">此帐户由comfort自动管理，不能手动添加！</string>
+
+       <!-- <string name="google">Google</string> -->
+      <string name="google">谷歌</string>
+
+       <!-- <string name="sim">SIM</string> -->
+      <string name="sim">SIM卡</string>
+
+       <!-- <string name="phone">Telephone</string> -->
+      <string name="phone">电话</string>
+
+       <!-- <string name="ok">Ok</string> -->
+      <string name="ok">保存</string>
+
+       <!-- <string name="back">Back</string> -->
+      <string name="back">返回</string>
+
+       <!-- <string name="cancel">Cancel</string> -->
+      <string name="cancel">取消</string>
+
+       <!-- <string name="enable">Enable</string> -->
+      <string name="enable">启用</string>
+
+       <!-- <string name="bt_continue">Continue</string> -->
+      <string name="bt_continue">继续</string>
+
+       <!-- <string name="bt_loading_ad">Loading ad...</string> -->
+      <string name="bt_loading_ad">加载广告...</string>
+
+       <!-- <string name="wait_for_ad_to_load">You must wait for ad to load</string> -->
+      <string name="wait_for_ad_to_load">您必须等待广告加载</string>
+
+       <!-- <string name="edit">Edit</string> -->
+      <string name="edit">编辑</string>
+
+       <!-- <string name="delete">Delete</string> -->
+      <string name="delete">删除</string>
+
+       <!-- <string name="help">Help</string> -->
+      <string name="help">帮助</string>
+
+       <!-- <string name="sort">Sort</string> -->
+      <string name="sort">分类</string>
+
+       <!-- <string name="sort_name_asc">Name (asc)</string> -->
+      <string name="sort_name_asc">名称（升序）</string>
+
+       <!-- <string name="sort_name_desc">Name (desc)</string> -->
+      <string name="sort_name_desc">名称（降序）</string>
+
+       <!-- <string name="sort_date_asc">Update date (asc)</string> -->
+      <string name="sort_date_asc">更新日期（升序）</string>
+
+       <!-- <string name="sort_date_desc">Update date (desc)</string> -->
+      <string name="sort_date_desc">更新日期（降序）</string>
+
+       <!-- <string name="filter">Search</string> -->
+      <string name="filter">搜索</string>
+
+       <!-- <string name="next_alarm">Next auto sync is scheduled on %1$s at %2$s</string> -->
+      <string name="next_alarm">下一次自动同步计划在 %2$s 的%1$s 上</string>
+
+       <!-- <string name="filter_text">Showing %1$s of %2$s contacts</string> -->
+      <string name="filter_text">"显示 %2$s 联系人的 %1$s "</string>
+
+       <!-- <string name="filter_all">All</string> -->
+      <string name="filter_all">所有</string>
+
+       <!-- <string name="with">With</string> -->
+      <string name="with">同</string>
+
+       <!-- <string name="without">Without</string> -->
+      <string name="without">在外</string>
+
+       <!-- <string name="filter_with_image">With image</string> -->
+      <string name="filter_with_image">跟随图片</string>
+
+       <!-- <string name="filter_without_image">Without image</string> -->
+      <string name="filter_without_image">没有图片</string>
+
+       <!-- <string name="filter_contacts_with_number">Contacts with a number</string> -->
+      <string name="filter_contacts_with_number">有号码的联系人</string>
+
+       <!-- <string name="filter_used_short">Used</string> -->
+      <string name="filter_used_short">已使用</string>
+
+       <!-- <string name="filter_used_long">Used for sync</string> -->
+      <string name="filter_used_long">用于同步</string>
+
+       <!-- <string name="filter_unused_short">Not used</string> -->
+      <string name="filter_unused_short">未使用</string>
+
+       <!-- <string name="filter_unused_long">Not used for sync</string> -->
+      <string name="filter_unused_long">不用于同步</string>
+
+       <!-- <string name="filter_linked_short">Linked</string> -->
+      <string name="filter_linked_short">关联</string>
+
+       <!-- <string name="filter_linked_long">Linked with friend</string> -->
+      <string name="filter_linked_long">与朋友联系</string>
+
+       <!-- <string name="filter_not_linked_short">Not linked</string> -->
+      <string name="filter_not_linked_short">没有联系</string>
+
+       <!-- <string name="filter_not_linked_long">Not linked with any friend</string> -->
+      <string name="filter_not_linked_long">没有与任何朋友联系</string>
+
+       <!-- <string name="no_contacts_found">No contacts found</string> -->
+      <string name="no_contacts_found">找不到联系人</string>
+
+       <!-- <string name="no_friends_found">No friends found.\nHave you already imported them?</string> -->
+      <string name="no_friends_found">没有找到朋友。\n 你已经导入了它们吗？</string>
+
+       <!-- <string name="no_friend_found">No friend found</string> -->
+      <string name="no_friend_found">未找到朋友</string>
+
+       <!-- <string name="button_root">Root</string> -->
+      <string name="button_root">Root</string>
+
+       <!-- <string name="button_import">Import</string> -->
+      <string name="button_import">导入</string>
+
+       <!-- <string name="button_link">Link</string> -->
+      <string name="button_link">链接</string>
+
+       <!-- <string name="button_download_images">Download</string> -->
+      <string name="button_download_images">下载</string>
+
+       <!-- <string name="button_sync">Sync now</string> -->
+      <string name="button_sync">立即同步</string>
+
+       <!-- <string name="every_hour_hours_addon">hour(s)</string> -->
+      <string name="every_hour_hours_addon">小时(s)</string>
+
+       <!-- <string name="every_day_days_addon">day(s)</string> -->
+      <string name="every_day_days_addon">天(s)</string>
+
+       <!-- <string name="every_week_weeks_addon">week(s)</string> -->
+      <string name="every_week_weeks_addon">周(s)</string>
+
+       <!-- <string name="every_minute_minutes_addon">minute(s)</string> -->
+      <string name="every_minute_minutes_addon">分(s)</string>
+
+       <!-- <string name="every">Every</string> -->
+      <string name="every">一切</string>
+
+       <!-- <string name="general">General</string> -->
+      <string name="general">一般</string>
+
+       <!-- <string name="filtered_accounts_title">Excluded accounts</string> -->
+      <string name="filtered_accounts_title">排除的帐户</string>
+
+       <!-- <string name="filtered_accounts">%1$d accounts excluded</string> -->
+      <string name="filtered_accounts">%1$d  个帐户已被排除</string>
+
+       <!-- <string name="settings_auto_sync">Auto sync</string> -->
+      <string name="settings_auto_sync">自动同步</string>
+
+       <!-- <string name="auto_sync_frequency">Frequency</string> -->
+      <string name="auto_sync_frequency">频率</string>
+
+       <!-- <string name="auto_sync_time">Time</string> -->
+      <string name="auto_sync_time">时间</string>
+
+       <!-- <string name="auto_sync_day">Day</string> -->
+      <string name="auto_sync_day">天</string>
+
+       <!-- <string name="auto_sync_preconditions">Preconditions</string> -->
+      <string name="auto_sync_preconditions">前提条件</string>
+
+       <!-- <string name="settings_history">Image history</string> -->
+      <string name="settings_history">图片历史</string>
+
+       <!-- <string name="settings_images">Images</string> -->
+      <string name="settings_images">图片</string>
+
+       <!-- <string name="enable_image_history">Enable image history</string> -->
+      <string name="enable_image_history">启用图片历史记录</string>
+
+       <!-- <string name="images_to_remember">Maximum number</string> -->
+      <string name="images_to_remember">最大数量</string>
+
+       <!-- <string name="settings_various">Various</string> -->
+      <string name="settings_various">各个</string>
+
+       <!-- <string name="advanced_settings">Advanced settings</string> -->
+      <string name="advanced_settings">高级设置</string>
+
+       <!-- <string name="settings_detailed_auto_sync_report">Detailed auto sync report</string> -->
+      <string name="settings_detailed_auto_sync_report">详细的自动同步报告</string>
+
+       <!-- <string name="settings_check_image_changed_outside">Check if image was changed outside of this app</string> -->
+      <string name="settings_check_image_changed_outside">检查图片是否在此应用程序之外更改</string>
+
+       <!-- <string name="settings_disable_errors_only_notification">Disable errors only notification (not recommended!)</string> -->
+      <string name="settings_disable_errors_only_notification">仅禁用错误通知（不推荐！）</string>
+
+       <!-- <string name="settings_show_debug_functions">Show debug functions</string> -->
+      <string name="settings_show_debug_functions">显示调试功能</string>
+
+       <!-- <string name="settings_enable_logging">Enable logging</string> -->
+      <string name="settings_enable_logging">启用日志记录</string>
+
+       <!-- <string name="settings_enable_advanced_logging">Enable advanced logging</string> -->
+      <string name="settings_enable_advanced_logging">启用高级日志记录</string>
+
+       <!-- <string name="settings_enable_logs">Enable logging</string> -->
+      <string name="settings_enable_logs">启用日志记录</string>
+
+       <!-- <string name="settings_enable_logs_info">If enabled, contact names, numbers, html content or ids may be logged to a log file on your phone in addition to a lot of debug data. This data will not leave your phone without your consent but you can send me the log file via mail (this is the only way that this data will ever leave your phone) and this improves my possibilities to reproduce issues and to solve them. I will not collect this data and will delete it as soon as the issue is solved.\n\nInsert "%1$s" to enabled logs</string> -->
+      <string name="settings_enable_logs_info">如果启用，除了大量调试数据外，还可以将联系人姓名，号码，html内容或ID记录到手机上的日志文件中。 这些数据不会在未经您同意的情况下离开您的手机，但您可以通过邮件向我发送日志文件（这是此数据将离开您的手机的唯一方式），这可以提高我重现问题和解决问题的可能性。 我不会收集这些数据，并会在问题解决后立即将其删除。\n\n将 “%1$s” 插入启用的日志</string>
+
+       <!-- <string name="settings_reset_all_contacts_image_comparison_data">Reset all contacts comparison data</string> -->
+      <string name="settings_reset_all_contacts_image_comparison_data">重置所有联系人比较数据</string>
+
+       <!-- <string name="settings_reset_all_contacts_image_comparison_data_info">This resets the internal comparison data and will have the effect that the app will replace each linked contact image with the current linked friends image regardless of it being changed or not</string> -->
+      <string name="settings_reset_all_contacts_image_comparison_data_info">这将重置内部比较数据，并且具有以下效果：应用程序将使用当前链接的朋友图片替换每个链接的联系人图片，无论其是否被更改</string>
+
+       <!-- <string name="settings_reset_all_contact_links">Reset all linkings</string> -->
+      <string name="settings_reset_all_contact_links">重置所有链接</string>
+
+       <!-- <string name="settings_reset_all_contact_links_info">This removes all links between contacts and friends - you must set them up again afterwards yourself!</string> -->
+      <string name="settings_reset_all_contact_links_info">这将删除联系人和朋友之间的所有链接 - 您必须自己再次设置它们！</string>
+
+       <!-- <string name="settings_limit_size_short">Image resolution</string> -->
+      <string name="settings_limit_size_short">图片分辨率</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading">Pause between loading friends pages when importing friends</string> -->
+      <string name="settings_pause_facebook_friends_page_loading">导入朋友时加载好友页面之间暂停</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_info_title">Pause</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_info_title">暂停</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_info_text">The import via login does need to load each of your friends page one by one once. If this happens to frequently, facebook will block you temporarily. Adjust the pause time here to avoid this, adjust the frequency to decide how often this pause will be made.</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_info_text">通过登录导入确实需要逐个加载您的每个朋友页面。 如果经常发生这种情况，Facebook会暂时阻止你。 在此处调整暂停时间以避免这种情况，调整频率以确定此暂停的频率。</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_frequency">Frequency of pause between loading friends (every nth time)</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_frequency">加载朋友之间的暂停频率（每第n次）</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_frequency_info_title">Frequency</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_frequency_info_title">频率</string>
+
+       <!-- <string name="settings_pause_facebook_friends_page_loading_frequency_info_text">Select a frequency to decide how often the selected pause will be made, it will be made after each nth friends page load, where n is the frequency you select here.</string> -->
+      <string name="settings_pause_facebook_friends_page_loading_frequency_info_text">选择一个频率来决定所选暂停的频率，它将在每个第n个朋友页面加载后进行，其中n是您在此处选择的频率。</string>
+
+       <!-- <string name="settings_limit_size_long">Limit image download resolution if possible (Normally phone contacts can\'t use a higher resolution than 720x720 anyways!)</string> -->
+      <string name="settings_limit_size_long">如果可能，限制图片下载分辨率（通常情况下，手机联系人无法使用比720x720更高的分辨率！）</string>
+
+       <!-- <string name="images_history_path">Path</string> -->
+      <string name="images_history_path">路径</string>
+
+       <!-- <string name="misc">Miscellaneous</string> -->
+      <string name="misc">杂项</string>
+
+       <!-- <string name="silent_mode">Silent mode</string> -->
+      <string name="silent_mode">静音模式</string>
+
+       <!-- <string name="silent_mode_info">Don\'t notify the user about updated images with a notification.</string> -->
+      <string name="silent_mode_info">不要通知用户有关通知的更新图片。</string>
+
+       <!-- <string name="silent_notification">Silent notifications</string> -->
+      <string name="silent_notification">静音通知</string>
+
+       <!-- <string name="silent_notification_info">Disables sound/vibration of the notifications</string> -->
+      <string name="silent_notification_info">禁用通知的声音/振动</string>
+
+       <!-- <string name="silent_notification_info_oreo_or_above">Use android\'s notification channels settings to set up this apps notifcation. I offer two channels for this app:\n* \"update channel\": this on defines which sound and vibration is played for each step of an update progress notification (silent by default)\n* \"info channel\": this on defines which sound and vibration is player for the final information notification and for error notifications (sound and vibration by default)</string> -->
+      <string name="silent_notification_info_oreo_or_above">使用安卓的通知设置来设置此应用程序通知。我为这个应用程序提供了两个通道：\n*“更新通道”：此选项定义更新进度通知的每个步骤播放的声音和振动（默认为静音）\n*“信息通道”：此信息定义哪个声音和振动是播放器的最终信息通知和错误通知（默认声音和振动）</string>
+
+       <!-- <string name="open_channel_settings">Open channel settings</string> -->
+      <string name="open_channel_settings">开放通道设置</string>
+
+       <!-- <string name="channel_update">Continuous update channel</string> -->
+      <string name="channel_update">持续更新通道</string>
+
+       <!-- <string name="channel_info">Final info channel</string> -->
+      <string name="channel_info">最终信息通道</string>
+
+       <!-- <string name="monday">Monday</string> -->
+      <string name="monday">星期一</string>
+
+       <!-- <string name="tuesday">Tuesday</string> -->
+      <string name="tuesday">星期二</string>
+
+       <!-- <string name="wednesday">Wednesday</string> -->
+      <string name="wednesday">星期三</string>
+
+       <!-- <string name="thursday">Thursday</string> -->
+      <string name="thursday">星期四</string>
+
+       <!-- <string name="friday">Friday</string> -->
+      <string name="friday">星期五</string>
+
+       <!-- <string name="saturday">Saturday</string> -->
+      <string name="saturday">星期六</string>
+
+       <!-- <string name="sunday">Sunday</string> -->
+      <string name="sunday">星期日</string>
+
+       <!-- <string name="wifiOnly">Only in WLAN</string> -->
+      <string name="wifiOnly">仅限WLAN</string>
+
+       <!-- <string name="nonMeteredOnly">Only in non metered networks</string> -->
+      <string name="nonMeteredOnly"></string>
+
+       <!-- <string name="chargingOnly">Only while charging</string> -->
+      <string name="chargingOnly">仅限充电时</string>
+
+       <!-- <string name="error_only_in_full_version">This function is only available in the pro version</string> -->
+      <string name="error_only_in_full_version">此功能仅适用于专业版</string>
+
+       <!-- <string name="auto_sync_manually_only">Disable automatic sync</string> -->
+      <string name="auto_sync_manually_only">禁用自动同步</string>
+
+       <!-- <string name="dark_app_theme">Use dark app theme</string> -->
+      <string name="dark_app_theme">使用黑暗主题</string>
+
+       <!-- <string name="reset_tutorials">Reset tutorials</string> -->
+      <string name="reset_tutorials">重置教程</string>
+
+       <!-- <string name="restart_app">Restart app</string> -->
+      <string name="restart_app">重启应用</string>
+
+       <!-- <string name="error_number">Please select a value between %1$d and %2$d!</string> -->
+      <string name="error_number">请选择 %1$d  和 %2$d 之间的值！</string>
+
+       <!-- <string name="contacts">Contacts</string> -->
+      <string name="contacts">联系人</string>
+
+       <!-- <string name="friends">Friends</string> -->
+      <string name="friends">朋友</string>
+
+       <!-- <string name="contact">Contact</string> -->
+      <string name="contact">联系人</string>
+
+       <!-- <string name="friend">Friend</string> -->
+      <string name="friend">朋友</string>
+
+       <!-- <string name="details">Details</string> -->
+      <string name="details">细节</string>
+
+       <!-- <string name="linked_contacts">Linked contacts</string> -->
+      <string name="linked_contacts">链接的联系人</string>
+
+       <!-- <string name="contacts_waiting_for_sync">Contacts with new images</string> -->
+      <string name="contacts_waiting_for_sync">使用新图片的联系人</string>
+
+       <!-- <string name="info_contacts_waiting_for_sync_zero">No contacts with updated images are waiting for sync, click on \"Sync now\" to check your contacts now.</string> -->
+      <string name="info_contacts_waiting_for_sync_zero">没有更新图片的联系人正在等待同步，请单击“立即同步”以立即检查您的联系人。</string>
+
+       <!-- <string name="settings">Settings</string> -->
+      <string name="settings">设置</string>
+
+       <!-- <string name="export_result_message">Data has been exported.</string> -->
+      <string name="export_result_message">数据已导出。</string>
+
+       <!-- <string name="export_problem_not_unique">%1$s contacts do not have a unique combination of their telephone numbers and names! You currently can\'t import those not unique contacts!</string> -->
+      <string name="export_problem_not_unique">%1$s 的联系人没有他们的电话号码和姓名的独特组合！您目前无法导入那些不是唯一的联系人！</string>
+
+       <!-- <string name="export_import_problem_names">Following contacts are not unique (occurences in brackets):\n%1$s.</string> -->
+      <string name="export_import_problem_names">以下联系人不是唯一的（括号中出现）： %1$s 。</string>
+
+       <!-- <string name="import_result_message">Contacts have been imported.\n%1$s phone contacts checked\n%2$s exported contacts found to import\n%3$d of %4$d auto syncs could be restored</string> -->
+      <string name="import_result_message">"联系人已导入。 \n已检查 %1$s 个电话联系人 \n找到要导入的 %2$s 导出的联系人 \n可以恢复 %4$d 自动同步的 %3$d "</string>
+
+       <!-- <string name="lastUpdateToday">Last update: %1$s</string> -->
+      <string name="lastUpdateToday">上次更新：%1$s</string>
+
+       <!-- <string name="lastUpdateDaysOld">Last update: %1$d days ago</string> -->
+      <string name="lastUpdateDaysOld">上次更新： %1$d  天前</string>
+
+       <!-- <string name="info_premium_version">If you buy the premium version, you\'ll get an ad free version of this app and support the developer.</string> -->
+      <string name="info_premium_version">如果您购买高级版，您将获得此应用的免广告版本并支持开发人员。</string>
+
+       <!-- <string name="import_facebook_friends">Import facebook friends</string> -->
+      <string name="import_facebook_friends">导入Facebook好友</string>
+
+       <!-- <string name="preparing_for_auto_sync">Preparing for auto sync...</string> -->
+      <string name="preparing_for_auto_sync">准备自动同步...</string>
+
+       <!-- <string name="checking_contacts">Checking contact images...</string> -->
+      <string name="checking_contacts">检查联系人图片......</string>
+
+       <!-- <string name="updating_contacts">Updating contact images...</string> -->
+      <string name="updating_contacts">更新联系人图片...</string>
+
+       <!-- <string name="contacts_of_contacts_checked">%1$s of %2$s checked</string> -->
+      <string name="contacts_of_contacts_checked">"已检查 %2$s  的 %1$s "</string>
+
+       <!-- <string name="ready_contacts">%s found</string> -->
+      <string name="ready_contacts">"找到 %s "</string>
+
+       <!-- <string name="click_to_finish">Click to update contacts</string> -->
+      <string name="click_to_finish">单击以更新联系人</string>
+
+       <!-- <string name="click_for_details">Click for details</string> -->
+      <string name="click_for_details">点击查看更多细节</string>
+
+       <!-- <string name="updated_contacts">%1$s %2$s updated</string> -->
+      <string name="updated_contacts">%1$s %2$s 已更新</string>
+
+       <!-- <string name="errors_occurred">Errors occurred</string> -->
+      <string name="errors_occurred">发生了错误</string>
+
+       <!-- <string name="error_checking_contacts_info">%1$d contacts had errors</string> -->
+      <string name="error_checking_contacts_info">%1$d 个联系人有错误</string>
+
+       <!-- <string name="error_checking_contact_single">%1$s:\n%2$s</string> -->
+      <string name="error_checking_contact_single">%1$s:\n%2$s</string>
+
+       <!-- <string name="error_auto_update_no_wifi">Network couldn\'t be checked because WLAN only is enabled in the settings and no WLAN connection was found!</string> -->
+      <string name="error_auto_update_no_wifi">无法检查网络，因为在设置中启用了仅使用WLAN，并且未找到WLAN连接！</string>
+
+       <!-- <string name="error_auto_update_metered">Network couldn\'t be checked because device is connected to a metered network!</string> -->
+      <string name="error_auto_update_metered"></string>
+
+       <!-- <string name="error_auto_update_no_network">Network couldn\'t be checked because no connection was found!</string> -->
+      <string name="error_auto_update_no_network">无法检查网络，因为未找到任何连接！</string>
+
+       <!-- <string name="error_auto_update_no_charging">Network couldn\'t be checked because only while charging is enabled in the settings and mobile is not charging currently!</string> -->
+      <string name="error_auto_update_no_charging">无法检查网络，因为只有在设置中启用了充电且移动设备当前未充电时！</string>
+
+       <!-- <string name="no_contact_with_enabled_auto_sync_title">No contact with enabled auto sync found</string> -->
+      <string name="no_contact_with_enabled_auto_sync_title">找不到已启用的自动同步的联系人</string>
+
+       <!-- <string name="no_contact_with_enabled_auto_sync_info">Nothing to do!</string> -->
+      <string name="no_contact_with_enabled_auto_sync_info">什么都没有发生！</string>
+
+       <!-- <string name="no_contact_with_enabled_auto_sync_text">No contact with enabled auto sync found - therefore, nothing to do!</string> -->
+      <string name="no_contact_with_enabled_auto_sync_text">没有找到启用自动同步的联系人 - 因此，什么都没有发生！</string>
+
+       <!-- <string name="error_retrieving_facebook_id">Could not calculate facebook data.</string> -->
+      <string name="error_retrieving_facebook_id">无法计算Facebook数据。</string>
+
+       <!-- <string name="error_profile_not_found">Profile not found.</string> -->
+      <string name="error_profile_not_found">找不到个人资料。</string>
+
+       <!-- <string name="precondition_error">Precondition error</string> -->
+      <string name="precondition_error">前提条件错误</string>
+
+       <!-- <string name="expand_for_details">Expand for details</string> -->
+      <string name="expand_for_details">展开详细信息</string>
+
+       <!-- <string name="error_details">Error details</string> -->
+      <string name="error_details">错误详情</string>
+
+       <!-- <string name="auto_sync_started">Auto sync started...</string> -->
+      <string name="auto_sync_started">自动同步已开始...</string>
+
+       <!-- <string name="auto_sync_finished">Auto sync finished</string> -->
+      <string name="auto_sync_finished">自动同步完成</string>
+
+       <!-- <string name="unknown_error">Unknown error</string> -->
+      <string name="unknown_error">未知错误</string>
+
+       <!-- <string name="wrapped_error">%1$s - Error: %2$s</string> -->
+      <string name="wrapped_error">%1$s - 错误: %2$s</string>
+
+       <!-- <string name="update_info">Found new images</string> -->
+      <string name="update_info">找到了新的图片</string>
+
+       <!-- <string name="ad_activity_info">This view is not shown in the pro version, in the pro version images are updated automatically. Consider going pro if you like this app.</string> -->
+      <string name="ad_activity_info">此视图未在专业版中显示，专业版图片会自动更新。如果你喜欢这个应用，请考虑购买专业版。</string>
+
+       <!-- <string name="error_current_picture_could_not_be_loaded">Current picture couldn\'t be loaded</string> -->
+      <string name="error_current_picture_could_not_be_loaded">无法加载当前图片</string>
+
+       <!-- <string name="error_current_pictures_hash_could_not_be_calculated">Current picture\'s hash couldn\'t be calculated</string> -->
+      <string name="error_current_pictures_hash_could_not_be_calculated">无法计算当前图片的哈希值</string>
+
+       <!-- <string name="info_rewared_video">Click continue to see an ad and to update your contact pictures afterwards</string> -->
+      <string name="info_rewared_video">点击继续查看广告，然后更新您的联系人图片</string>
+
+       <!-- <string name="error_already_syncing">Sync is already running!</string> -->
+      <string name="error_already_syncing">同步已经在运行！</string>
+
+       <!-- <string name="about">About</string> -->
+      <string name="about">关于</string>
+
+       <!-- <string name="stats">Statistics</string> -->
+      <string name="stats">统计</string>
+
+       <!-- <string name="about_uses_libraries">Credits (Open Source, ...)</string> -->
+      <string name="about_uses_libraries">积分（开源，...）</string>
+
+       <!-- <string name="about_rate">Rate app</string> -->
+      <string name="about_rate">评价应用</string>
+
+       <!-- <string name="about_changelog">Changelog</string> -->
+      <string name="about_changelog">更新日志</string>
+
+       <!-- <string name="about_contributors_and_translators">Translators</string> -->
+      <string name="about_contributors_and_translators">翻译者</string>
+
+       <!-- <string name="special_thanks_text">Special thanks goes to those people for helping with this app\'s translations:</string> -->
+      <string name="special_thanks_text">特别感谢那些帮助这个应用程序翻译的人：</string>
+
+       <!-- <string name="info_auto_sync_finished_no_changes_found">No new contact images found.</string> -->
+      <string name="info_auto_sync_finished_no_changes_found">未找到新的联系人图片。</string>
+
+       <!-- <string name="info_auto_sync_started_manually">Sync started in background, watch your notification for details</string> -->
+      <string name="info_auto_sync_started_manually">同步在后台开始，请查看通知以获取详细信息</string>
+
+       <!-- <string name="updating_contact_images">Updating contact images...</string> -->
+      <string name="updating_contact_images">更新联系人图片...</string>
+
+       <!-- <string name="no_new_contact_image">No new contact images found - all contacts are up to date</string> -->
+      <string name="no_new_contact_image">未找到新的联系人图片 - 所有联系人都是最新的</string>
+
+       <!-- <string name="errors_occurred_check_notification">Errors occurred, please check the notification</string> -->
+      <string name="errors_occurred_check_notification">发生错误，请检查通知</string>
+
+       <!-- <string name="new_contact_image">1 new contact image found - contact is ready to update</string> -->
+      <string name="new_contact_image">%d 个新的联系人图片</string>
+
+       <!-- <string name="new_contact_images">%1$d new contact images found - contacts are ready to update</string> -->
+      <string name="new_contact_images">找到 %1$d 新的联系人图片 - 联系人已准备好更新</string>
+
+       <!-- <string name="action_import_group_main">Main methods</string> -->
+      <string name="action_import_group_main">主要方法</string>
+
+       <!-- <string name="action_import_default_title">Import friends</string> -->
+      <string name="action_import_default_title">导入朋友</string>
+
+       <!-- <string name="action_import_default_desc">Via login into your account</string> -->
+      <string name="action_import_default_desc">通过登录您的帐户</string>
+
+       <!-- <string name="action_import_csv_title">Import CSV file</string> -->
+      <string name="action_import_csv_title">导入CSV文件</string>
+
+       <!-- <string name="action_import_csv_desc">Via opening a prepared csv file</string> -->
+      <string name="action_import_csv_desc">通过打开准备好的csv文件</string>
+
+       <!-- <string name="select_a_csv_file">Select a CSV file</string> -->
+      <string name="select_a_csv_file">选择CSV文件</string>
+
+       <!-- <string name="csv_friends_checked">%1$d of %2$d valid CSV lines checked...</string> -->
+      <string name="csv_friends_checked">%1$d of %2$d 检查有效的CSV行...</string>
+
+       <!-- <string name="action_import_root_title">Import friends</string> -->
+      <string name="action_import_root_title">导入朋友</string>
+
+       <!-- <string name="action_import_root_desc">With ROOT + official facebook app</string> -->
+      <string name="action_import_root_desc">使用ROOT +官方Facebook应用程序</string>
+
+       <!-- <string name="action_import_group_others">Other methods</string> -->
+      <string name="action_import_group_others">其他方法</string>
+
+       <!-- <string name="action_import_htc_title">From phone contacts</string> -->
+      <string name="action_import_htc_title">来自手机联系人</string>
+
+       <!-- <string name="action_import_htc_desc">HTC data import</string> -->
+      <string name="action_import_htc_desc">HTC数据导入</string>
+
+       <!-- <string name="export_htc_title">HTC Export</string> -->
+      <string name="export_htc_title">HTC导出</string>
+
+       <!-- <string name="export_htc_info">This will replace or add a HTCData tag to your contacts note field and remove ANY old existing HTCData, do you want to continue?</string> -->
+      <string name="export_htc_info">这将替换或添加HTCData标记到您的联系人备注字段并删除任何旧的现有HTCData，您要继续吗？</string>
+
+       <!-- <string name="export_htc_text">Exporting data...</string> -->
+      <string name="export_htc_text">导出数据......</string>
+
+       <!-- <string name="export_htc_result">%1$d HTC tags exported</string> -->
+      <string name="export_htc_result">%1$d HTC标签已导出</string>
+
+       <!-- <string name="export_htc_result_error">%1$s\n%2$d HTC tags exported</string> -->
+      <string name="export_htc_result_error">%1$s\n%2$d 标签已导出</string>
+
+       <!-- <string name="action_import_manual_title">Manual</string> -->
+      <string name="action_import_manual_title">手册</string>
+
+       <!-- <string name="action_import_manual_desc">Add single contacts manually</string> -->
+      <string name="action_import_manual_desc">手动添加单个联系人</string>
+
+       <!-- <string name="import_contacts_title">Data import</string> -->
+      <string name="import_contacts_title">数据导入</string>
+
+       <!-- <string name="import_contacts_text">Importing data...</string> -->
+      <string name="import_contacts_text">导入数据......</string>
+
+       <!-- <string name="import_contact_image">Image import</string> -->
+      <string name="import_contact_image">图片导入</string>
+
+       <!-- <string name="import_contact_image_text">Importing image...</string> -->
+      <string name="import_contact_image_text">导入图片......</string>
+
+       <!-- <string name="import_contacts_result">%1$d new facebook friends could be imported.\n%2$d friends already existed.</string> -->
+      <string name="import_contacts_result">%1$d 新的Facebook好友可以导入。 \n%2$d 的朋友已经存在。</string>
+
+       <!-- <string name="import_contacts_result_with_exception">%1$s\n%2$d new facebook friends could be imported.\n%3$d friends already existed.</string> -->
+      <string name="import_contacts_result_with_exception">%1$s\n%2$d 新的Facebook好友可以导入。\n%3$d 的朋友已经存在。</string>
+
+       <!-- <string name="setup_auto_sync">Setup links</string> -->
+      <string name="setup_auto_sync">设置链接</string>
+
+       <!-- <string name="reset_link">Reset link</string> -->
+      <string name="reset_link">重置链接</string>
+
+       <!-- <string name="info_linked_contacts">Linked contacts are contacts whose images will be checked on each automatic sync.\n\nYou currently have %1$d linked contacts.\n\nLink more contacts via the link button or via the contacts/friends pages.</string> -->
+      <string name="info_linked_contacts">链接的联系人是在每次自动同步时检查其图片的联系人。\n\n 您目前有 %1$d 个关联的联系人。\n\n 通过链接按钮或通过联系人/朋友页面链接更多联系人。</string>
+
+       <!-- <string name="error_permission_to_read_contacts_needed">Without this permission this app is not able to read and update the contacts on your phone, so you must grant this permission to use this app.</string> -->
+      <string name="error_permission_to_read_contacts_needed">如果没有此权限，此应用无法读取和更新手机上的联系人，因此您必须授予此权限才能使用此应用。</string>
+
+       <!-- <string name="dlg_import_facebook_title">Importing facebook friends</string> -->
+      <string name="dlg_import_facebook_title">导入Facebook好友</string>
+
+       <!-- <string name="step_1">Step 1/2</string> -->
+      <string name="step_1">步骤 1/2</string>
+
+       <!-- <string name="step_2">Step 2/2</string> -->
+      <string name="step_2">步骤 2/2</string>
+
+       <!-- <string name="dlg_import_facebook_text_step_1">Importing list of friends</string> -->
+      <string name="dlg_import_facebook_text_step_1">导入朋友列表</string>
+
+       <!-- <string name="dlg_import_facebook_text_step_2">Calculating facebook data of each new friend</string> -->
+      <string name="dlg_import_facebook_text_step_2">计算每个新朋友的facebook数据</string>
+
+       <!-- <string name="dlg_import_facebook_status_step1">%1$d friends found</string> -->
+      <string name="dlg_import_facebook_status_step1">找到 %1$d 的朋友</string>
+
+       <!-- <string name="dlg_import_facebook_status_step2">Friend %1$d / %2$d finished</string> -->
+      <string name="dlg_import_facebook_status_step2">朋友 %1$d / %2$d 完成</string>
+
+       <!-- <string name="dlg_import_facebook_infos_short">Grab some coffee, sadly, this needs some time...</string> -->
+      <string name="dlg_import_facebook_infos_short">拿一些咖啡，遗憾的是，这需要一些时间......</string>
+
+       <!-- <string name="dlg_import_facebook_infos_long">• Don\'t rotate the device during step one! This step will restart it\'s work otherwise as it cannot be restored.\n• Calculating data must be done once per friend only\n• Already known friends will automatically be skipped to save time\n• Screen will stay on during this process and internet connection is needed</string> -->
+      <string name="dlg_import_facebook_infos_long">• 在第一步中不要旋转设备！此步骤将重新启动它的工作，否则无法恢复。\n• 每位朋友必须只计算一次计算数据\n• 已经知道的朋友将被自动跳过以节省时间\n• 屏幕将在此过程中保持打开状态，并且需要互联网连接</string>
+
+       <!-- <string name="info_status">Status</string> -->
+      <string name="info_status">状态</string>
+
+       <!-- <string name="add_contact">Add contact</string> -->
+      <string name="add_contact">添加联系人</string>
+
+       <!-- <string name="add">Add</string> -->
+      <string name="add">添加</string>
+
+       <!-- <string name="check">Check</string> -->
+      <string name="check">检查</string>
+
+       <!-- <string name="add_contact_input">Input</string> -->
+      <string name="add_contact_input">输入</string>
+
+       <!-- <string name="add_contact_id">ID:</string> -->
+      <string name="add_contact_id">ID:</string>
+
+       <!-- <string name="add_contact_name">Name</string> -->
+      <string name="add_contact_name">名称</string>
+
+       <!-- <string name="add_contact_status_found">Contact found</string> -->
+      <string name="add_contact_status_found">找到联系人</string>
+
+       <!-- <string name="add_contact_status_checking">Checking data...</string> -->
+      <string name="add_contact_status_checking">检查数据......</string>
+
+       <!-- <string name="add_contact_error_only_valid_can_be_added">Check a contact first and only click add, if the contact status is valid and an image is displayed!</string> -->
+      <string name="add_contact_error_only_valid_can_be_added">首先检查联系人，如果联系人状态有效并且显示图片，则只需单击添加！</string>
+
+       <!-- <string name="add_contact_error_empty_input">Can\'t add empty data! Add data and name before adding a contact.</string> -->
+      <string name="add_contact_error_empty_input">无法添加空数据！添加联系人之前添加数据和名称。</string>
+
+       <!-- <string name="executed_checks">Images checked</string> -->
+      <string name="executed_checks">检查图片</string>
+
+       <!-- <string name="executed_updates">Images updated</string> -->
+      <string name="executed_updates">图片已更新</string>
+
+       <!-- <string name="executed_auto_snycs">Executed syncs</string> -->
+      <string name="executed_auto_snycs">执行同步</string>
+
+       <!-- <string name="execute">Execute</string> -->
+      <string name="execute">执行</string>
+
+       <!-- <string name="executed">\'%1$s\' executed</string> -->
+      <string name="executed">\'%1$s\' 已执行</string>
+
+       <!-- <string name="last_check">Last check</string> -->
+      <string name="last_check">最后检查</string>
+
+       <!-- <string name="last_auto_sync">Last change</string> -->
+      <string name="last_auto_sync">最后一次变更</string>
+
+       <!-- <string name="last_auto_sync_time">%1$s %2$s</string> -->
+      <string name="last_auto_sync_time">%1$s %2$s</string>
+
+       <!-- <string name="never">Never</string> -->
+      <string name="never">从不</string>
+
+       <!-- <string name="image_format">Format</string> -->
+      <string name="image_format">格式</string>
+
+       <!-- <string name="image_tint">Tint</string> -->
+      <string name="image_tint">着色</string>
+
+       <!-- <string name="image_tint_color">Tint color</string> -->
+      <string name="image_tint_color">色彩</string>
+
+       <!-- <string name="format_orig">Original</string> -->
+      <string name="format_orig">原始</string>
+
+       <!-- <string name="format_square">Square</string> -->
+      <string name="format_square">正方形</string>
+
+       <!-- <string name="format_circle">Circle</string> -->
+      <string name="format_circle">圆</string>
+
+       <!-- <string name="calc_similarities">Calculating similarities\n%1$d / %2$d done</string> -->
+      <string name="calc_similarities">计算相似之处\n%1$d / %2$d 完成</string>
+
+       <!-- <string name="best_simil_from_to">Best similarity %1$d%% - %2$d%%</string> -->
+      <string name="best_simil_from_to">最佳相似度  %1$d%% - %2$d%%</string>
+
+       <!-- <string name="save_auto_sync">Link %1$d / %2$d contacts</string> -->
+      <string name="save_auto_sync">链接 %1$d / %2$d 联系人</string>
+
+       <!-- <string name="select_friend">Select friend</string> -->
+      <string name="select_friend">选择朋友</string>
+
+       <!-- <string name="select_contact">Select contact</string> -->
+      <string name="select_contact">选择联系人</string>
+
+       <!-- <string name="changed_contacts">Changed contacts</string> -->
+      <string name="changed_contacts">更改联系人</string>
+
+       <!-- <string name="for_link">For link</string> -->
+      <string name="for_link">如需链接</string>
+
+       <!-- <string name="phone_numbers">Phone numbers</string> -->
+      <string name="phone_numbers">电话号码</string>
+
+       <!-- <string name="contact_types">Contact types</string> -->
+      <string name="contact_types">联系方式</string>
+
+       <!-- <string name="name">Name</string> -->
+      <string name="name">名称</string>
+
+       <!-- <string name="friend_already_exists">Friend already exists (%1$s)</string> -->
+      <string name="friend_already_exists">朋友已经存在（%1$s）</string>
+
+       <!-- <string name="friend_added">Friend added</string> -->
+      <string name="friend_added">朋友添加</string>
+
+       <!-- <string name="auto_sync_pending_changes_question">Last check showed that %1$d friends have new images and have not been updated yet. Do you just want to update those or do you want to recheck all contacts?</string> -->
+      <string name="auto_sync_pending_changes_question">上次检查显示 %1$d 的朋友有新图片，尚未更新。您只想更新这些还是要重新检查所有联系人？</string>
+
+       <!-- <string name="auto_sync_pending_changes_update">Update</string> -->
+      <string name="auto_sync_pending_changes_update">更新</string>
+
+       <!-- <string name="auto_sync_pending_changes_recheck">Recheck</string> -->
+      <string name="auto_sync_pending_changes_recheck">重新检查</string>
+
+       <!-- <string name="error_history_image_could_not_be_created">History image couldn\'t be created</string> -->
+      <string name="error_history_image_could_not_be_created">无法创建历史图片</string>
+
+       <!-- <string name="history_images">History images</string> -->
+      <string name="history_images">历史图片</string>
+
+       <!-- <string name="empty">Empty</string> -->
+      <string name="empty">空</string>
+
+       <!-- <string name="replacing_image_title">History image</string> -->
+      <string name="replacing_image_title">历史图片</string>
+
+       <!-- <string name="replacing_image">Replacing image...</string> -->
+      <string name="replacing_image">替换图片......</string>
+
+       <!-- <string name="replace_only">Replace only</string> -->
+      <string name="replace_only">仅替换</string>
+
+       <!-- <string name="replace_and_history">Replace + add to history</string> -->
+      <string name="replace_and_history">替换+添加到历史记录</string>
+
+       <!-- <string name="use_last_facebook_account">Reuse last profile</string> -->
+      <string name="use_last_facebook_account">重复使用上次个人资料</string>
+
+       <!-- <string name="use_last_facebook_account_info">Do you want to reuse the last used profile?</string> -->
+      <string name="use_last_facebook_account_info">您想重复使用上次使用的配置文件吗？</string>
+
+       <!-- <string name="login_to_facebook">Login to facebook</string> -->
+      <string name="login_to_facebook">登录Facebook</string>
+
+       <!-- <string name="login_to_facebook_info"><b>Why do I need to login?</b>\nYou need to login to facebook so that my app can retrieve a list of all your friends.\n\n<b>Privacy and data collection</b>\n* the app only accesses your list of friends and nothing more - there is an option for manually adding friends without facebook login\n* the app does not do anything else (neither collect data, nor store data, nor send data anywhere)\n* data processing is done on the device only</string> -->
+      <string name="login_to_facebook_info"><b>我为什么需要登录？</b>\n您需要登录到Facebook，以便我的应用程序可以检索所有朋友的列表。\n\n<b>隐私和数据收集</b>\n* 该应用程序只访问您的朋友列表，仅此而已 - 有一个选项可以手动添加没有Facebook登录的朋友\n* 该应用程序不做任何其他事情（既不收集数据，也不存储数据，也不在任何地方发送数据）\n* 数据处理仅在设备上完成</string>
+
+       <!-- <string name="import_csv">CSV Import</string> -->
+      <string name="import_csv">CSV导入</string>
+
+       <!-- <string name="import_csv_info">Import via a simple csv file. The file should contain \"id;name\" pairs or \"link;name\" pairs. The names are optional. E.g.:\n\n<i>4;Mark Zuckerberg\nwww.facebook.com/zuck;Mark Zuckerberg</i>\n\n</string> -->
+      <string name="import_csv_info">通过简单的csv文件导入。该文件应包含“id; name”对或“link; name”对。名称是可选的。例如。：\n\n<i>4;马克·扎克伯格\nwww.facebook.com/zuck;马克·扎克伯格</i></string>
+
+       <!-- <string name="next">Next</string> -->
+      <string name="next">下一步</string>
+
+       <!-- <string name="change_profile">Change profile</string> -->
+      <string name="change_profile">改变档案</string>
+
+       <!-- <string name="info_import_service_title">Importing friends</string> -->
+      <string name="info_import_service_title">导入朋友</string>
+
+       <!-- <string name="info_import_service_text">Import started, this needs some time. Watch your notifications...\n\nYou can exit this app in the meantime...</string> -->
+      <string name="info_import_service_text">导入开始，这需要一些时间。观看您的通知...... \n\n您可以在此期间退出此应用程序...</string>
+
+       <!-- <string name="info_import_notification_title">Importing friends...</string> -->
+      <string name="info_import_notification_title">导入朋友......</string>
+
+       <!-- <string name="info_import_notification_title0">1/2: %1$d friends found</string> -->
+      <string name="info_import_notification_title0">1/2: %1$d 朋友找到</string>
+
+       <!-- <string name="info_import_notification_text0">Searching for friends</string> -->
+      <string name="info_import_notification_text0">正在查找朋友</string>
+
+       <!-- <string name="info_import_notification_title1">2/2: Calculating facebook data</string> -->
+      <string name="info_import_notification_title1">2/2：计算Facebook数据</string>
+
+       <!-- <string name="info_import_notification_text1">%1$d/%2$d done</string> -->
+      <string name="info_import_notification_text1">%1$d/%2$d 完成</string>
+
+       <!-- <string name="info_import_notification_title2">Import done</string> -->
+      <string name="info_import_notification_title2">导入完成</string>
+
+       <!-- <string name="info_import_notification_text2">New: %1$d / Already existed: %2$d</string> -->
+      <string name="info_import_notification_text2">新：%1$d /已存在：%2$d</string>
+
+       <!-- <string name="info_import_notification_blocked">\n\nSadly loading friends profiles is currently blocked - please try again later.\nThe import process is still under development.</string> -->
+      <string name="info_import_notification_blocked">遗憾的是，目前已阻止加载好友个人资料 - 请稍后再试。 \n导入处理仍在开发中。</string>
+
+       <!-- <string name="info_import_not_logged_in">\n\nLogin cookie expired - cookie deleted, please restart the import and login again.</string> -->
+      <string name="info_import_not_logged_in">登录cookie已过期 - 已删除cookie，请重新启动导入并再次登录。</string>
+
+       <!-- <string name="info_import_error">\n\nSadly following errors occured: %1$s</string> -->
+      <string name="info_import_error">遗憾地发生错误：%1$s</string>
+
+       <!-- <string name="dialog_preparing_import_title">Preparing</string> -->
+      <string name="dialog_preparing_import_title">准备</string>
+
+       <!-- <string name="dialog_preparing_import_text">Preparing for import...</string> -->
+      <string name="dialog_preparing_import_text">准备导入......</string>
+
+       <!-- <string name="import_images_title">Image import</string> -->
+      <string name="import_images_title">导入图片</string>
+
+       <!-- <string name="import_images_text">Importing images...</string> -->
+      <string name="import_images_text">导入图片......</string>
+
+       <!-- <string name="exit">Exit</string> -->
+      <string name="exit">退出</string>
+
+       <!-- <string name="info_root_needed_title">Root rights</string> -->
+      <string name="info_root_needed_title">Root权限</string>
+
+       <!-- <string name="info_root_needed_text">This app needs ROOT rights, otherwise it can\'t work. Do you want to grant ROOT permissions?</string> -->
+      <string name="info_root_needed_text">此应用程序需要ROOT权限，否则无法正常工作。你想授予ROOT权限吗？</string>
+
+       <!-- <string name="info_root_needed_but_not_found_title">Root not found</string> -->
+      <string name="info_root_needed_but_not_found_title">找不到Root</string>
+
+       <!-- <string name="info_root_needed_but_not_found_text">This app needs ROOT rights, but your phone is not rooted. Sorry, but you can\'t use this app.</string> -->
+      <string name="info_root_needed_but_not_found_text">此应用程序需要ROOT权限，但您的手机没有root权限。抱歉，您无法使用此应用。</string>
+
+       <!-- <string name="friend_has_no_image">This friend does not have an image</string> -->
+      <string name="friend_has_no_image">这位朋友没有图片</string>
+
+       <!-- <string name="info_whatsapp_download_image_title">Image download</string> -->
+      <string name="info_whatsapp_download_image_title">图片下载</string>
+
+       <!-- <string name="info_whatsapp_download_image_text"><![CDATA[You must download the images through WhatsApp, only afterwards this app can do it\'s work.</p><h1>Informationen</h1><b><font color="#31B404">This app can recognise every contact of WhatsApp but it can only find manually downloaded images!</font></b><h1>Image download</h1><ol><li>Whenever you see a new image in a WhatsApp conversation, just click on the contact on top.</li><li>This will open the contact details in WhatsApp.</li><li>Depending on your WhatsApp version that\'s all you have to do to force WhatsApp to download the large contact image.</li><li>In older versions, you have to click on the image to show it in big, only afterwards WhatsApp downloads the picture. Just try it out to find out what is necessary in your WhatsApp version.</li></ol><h1>Information</h1><p>Downloaded images are import on every app start and before any sync.</p>]]></string> -->
+      <string name="info_whatsapp_download_image_text"><![CDATA[你必须通过WhatsApp下载图片，之后这个应用程序才能完成它的工作。</p>
+<h1>信息详细信息</h1><b><font color="#31B404">这个应用程序可以识别WhatsApp的每个联系人，但它只能找到手动下载的图片！</font></b><h1>图片下载</h1><ol><li>每当您在WhatsApp对话中看到新图片时，只需点击顶部的联系人即可。</li><li>这将打开WhatsApp中的联系方式。</li><li>根据您的WhatsApp版本，您需要做的就是强制WhatsApp下载大型联系人图片。</li><li>在旧版本中，您必须单击图片以显示大图，然后WhatsApp下载图片。试试看你的WhatsApp版本中有什么必要。</li></ol><h1>信息</h1><p>在每个应用程序启动时以及任何同步之前导入下载的图片。</p>]]></string>
+
+       <!-- <string name="open_in">Open in %1$s</string> -->
+      <string name="open_in">在 %1$s 中打开</string>
+
+       <!-- <string name="open_contact">Open contact</string> -->
+      <string name="open_contact">公开联系</string>
+
+       <!-- <string name="info_root_is_required_title">Root</string> -->
+      <string name="info_root_is_required_title">Root</string>
+
+       <!-- <string name="info_root_is_required_text">To use this app, root is required. If you don\'t have a rooted device or don\'t want to give this app root permissions you can\'t use this app.</string> -->
+      <string name="info_root_is_required_text">要使用此应用程序，需要root。如果您没有root设备或者不想授予此应用程序root权限，则无法使用此应用程序。</string>
+
+       <!-- <string name="setup_slide1_title">Welcome</string> -->
+      <string name="setup_slide1_title">欢迎</string>
+
+       <!-- <string name="setup_slide1_text">Welcome to %s</string> -->
+      <string name="setup_slide1_text">欢迎来到 %s</string>
+
+       <!-- <string name="setup_slide2_title">Permission</string> -->
+      <string name="setup_slide2_title">允许</string>
+
+       <!-- <string name="setup_slide2_text">This app needs permissions to read from and write to your contacts. Please click the button and grant this permission.</string> -->
+      <string name="setup_slide2_text">此应用程序需要具有读取和写入联系人的权限。请单击按钮并授予此权限。</string>
+
+       <!-- <string name="setup_slide3_title">Tutorials</string> -->
+      <string name="setup_slide3_title">教程</string>
+
+       <!-- <string name="setup_slide3_text">If you don\'t know what to do, click the question mark icon to show a tutorial again. Nearly every page has one.</string> -->
+      <string name="setup_slide3_text">如果您不知道该怎么做，请单击问号图标以再次显示教程。几乎每个页面都有一个。</string>
+
+       <!-- <string name="setup_slide4_title">Enjoy</string> -->
+      <string name="setup_slide4_title">请享用</string>
+
+       <!-- <string name="setup_slide4_text">You\'re done, start using this app and enjoy it.</string> -->
+      <string name="setup_slide4_text">你已经完成了，开始使用这个应用程序并享受它。</string>
+
+       <!-- <string name="setup_slide_root_title">Root</string> -->
+      <string name="setup_slide_root_title">Root</string>
+
+       <!-- <string name="setup_slide_root_text">This app needs root permissions to read images from %1$s. Please click the button and grant this permission.</string> -->
+      <string name="setup_slide_root_text">此应用程序需要root权限才能从 %1$s 读取图片。请单击按钮并授予此权限。</string>
+
+       <!-- <string name="info">Info</string> -->
+      <string name="info">信息</string>
+
+       <!-- <string name="info_faqs">Help</string> -->
+      <string name="info_faqs">帮助</string>
+
+       <!-- <string name="title_faqs">FAQ</string> -->
+      <string name="title_faqs">常见问题</string>
+
+       <!-- <string name="bt_faqs">Show FAQ</string> -->
+      <string name="bt_faqs">显示常见问题</string>
+
+       <!-- <string name="bt_contact">Contact</string> -->
+      <string name="bt_contact">联系</string>
+
+       <!-- <string name="info_steps">How it works</string> -->
+      <string name="info_steps">这个怎么工作</string>
+
+       <!-- <string name="info_step2_import_friends">%1$d) Import friends</string> -->
+      <string name="info_step2_import_friends">%1$d) 导入朋友</string>
+
+       <!-- <string name="info_step3_auto_link">%1$d) Auto link contacts with friends</string> -->
+      <string name="info_step3_auto_link">%1$d)  与朋友自动链接联系人</string>
+
+       <!-- <string name="info_step3_download_images">%1$d) Manually download images</string> -->
+      <string name="info_step3_download_images">%1$d)  手动下载图片</string>
+
+       <!-- <string name="info_step4_start_sync">%1$d) Start the sync or wait for the auto sync</string> -->
+      <string name="info_step4_start_sync">%1$d)  开始同步或等待自动同步</string>
+
+       <!-- <string name="showcase_main_1"><![CDATA[<b><font color="#FF0000">1/5 Import</font></b><br/>Start here by importing your friends...]]></string> -->
+      <string name="showcase_main_1"><![CDATA[<b><font color="#FF0000">1/5 导入</font></b><br/>从这里开始导入你的朋友......]]></string>
+
+       <!-- <string name="showcase_main_2"><![CDATA[<b><font color="#FF0000">2/5 Linking</font></b><br/>... and continue here by linking your contacts with your friends (tell the app which contact should be synced with which friend)]]></string> -->
+      <string name="showcase_main_2"><![CDATA[<b><font color="#FF0000">2/5 链接</font></b><br/>...并通过将您的联系人与您的朋友联系起来继续（告诉应用程序应该与哪位朋友同步哪个联系人）]]></string>
+
+       <!-- <string name="showcase_main_3"><![CDATA[<b><font color="#FF0000">3/5 Syncing</font></b><br/>Start a manual auto sync here if you want afterwards.]]></string> -->
+      <string name="showcase_main_3"><![CDATA[<b><font color="#FF0000">3/5 同步</font></b><br/>如果您想要，请在此处开始手动自动同步。]]></string>
+
+       <!-- <string name="showcase_main_4"><![CDATA[<b><font color="#FF0000">4/5 Info</font></b><br/>Here you see some data, you can click on them....]]></string> -->
+      <string name="showcase_main_4"><![CDATA[<b><font color="#FF0000">4/5 信息</font></b><br/>在这里你看到一些数据，你可以点击它们....]]></string>
+
+       <!-- <string name="showcase_main_5"><![CDATA[<b><font color="#FF0000">5/5 Info</font></b><br/>... and here you find additional pages.]]></string> -->
+      <string name="showcase_main_5"><![CDATA[<b><font color="#FF0000">5/5 信息</font></b><br/>...在这里你可以找到其他页面。]]></string>
+
+       <!-- <string name="showcase_list_1"><![CDATA[<b><font color="#FF0000">1/2 Link</font></b><br/>Click on the link symbol next to a contact/friend to link it with a contact resp. friend]]></string> -->
+      <string name="showcase_list_1"><![CDATA[<b><font color="#FF0000">1/2 链接</font></b><br/>单击联系人/朋友旁边的链接符号以将其与联系人或朋友链接。]]></string>
+
+       <!-- <string name="showcase_list_2"><![CDATA[<b><font color="#FF0000">2/2 Details</font></b><br/>Click on a contact/friend to show further details]]></string> -->
+      <string name="showcase_list_2"><![CDATA[<b><font color="#FF0000">2/2 细节</font></b><br/>单击联系人/朋友以显示更多详细信息]]></string>
+
+       <!-- <string name="showcase_simil_1"><![CDATA[<b><font color="#FF0000">1/3 Mark</font></b><br/>To mark a suggested link as correct, click the left part of a row...]]></string> -->
+      <string name="showcase_simil_1"><![CDATA[<b><font color="#FF0000">1/3 标记</font></b><br/>要将建议的链接标记为正确，请单击行的左侧部分...]]></string>
+
+       <!-- <string name="showcase_simil_2"><![CDATA[<b><font color="#FF0000">2/3 Select alternative friend</font></b><br/>... click the right part of a row to select an alternative friend to link the contact with]]></string> -->
+      <string name="showcase_simil_2"><![CDATA[<b><font color="#FF0000">2/3 选择另类朋友</font></b><br/>...单击行的右侧部分以选择要将联系人链接到的替代朋友]]></string>
+
+       <!-- <string name="showcase_simil_3"><![CDATA[<b><font color="#FF0000">3/3 Tip</font></b><br/>Click on a header to (de-)select all sub items at once]]></string> -->
+      <string name="showcase_simil_3"><![CDATA[<b><font color="#FF0000">3/3 小结</font></b><br/>单击标题可以（一次）选择所有子项目]]></string>
+
+       <!-- <string name="showcase_contact_details_1"><![CDATA[<b><font color="#FF0000">1/3 History</font></b><br/>If the history is enabled in the settings, you see the history images here]]></string> -->
+      <string name="showcase_contact_details_1"><![CDATA[<b><font color="#FF0000">1/3 历史</font></b><br/>如果在设置中启用了历史记录，则可以在此处查看历史记录图片]]></string>
+
+       <!-- <string name="showcase_contact_details_2"><![CDATA[<b><font color="#FF0000">2/3 History</font></b><br/>You can click the history image to see some details and actions]]></string> -->
+      <string name="showcase_contact_details_2"><![CDATA[<b><font color="#FF0000">2/3 历史</font></b><br/>您可以单击历史记录图片以查看一些详细信息和操作]]></string>
+
+       <!-- <string name="showcase_contact_details_3"><![CDATA[<b><font color="#FF0000">3/3 Image</font></b><br/>Click the image to show it in big]]></string> -->
+      <string name="showcase_contact_details_3"><![CDATA[<b><font color="#FF0000">3/3 图片</font></b><br/>单击图片以大画面显示]]></string>
+
+       <!-- <string name="help_add_contact_facebook_text"><![CDATA[<p>Write the url of a friends profile into the input field, namely the url of your friends main page (or the facebook profile name (this is NOT your friends name on facebook!) or id directly). Based on the profile of facebook founder Mark Zuckerberg I demonstrate all valid input formats:<ol><li>https://www.facebook.com/zuck</li><li>www.facebook.com/zuck</li><li>zuck</li><li>4</li></ol></p><p><b><font color="#FF0000">Important: Sadly, this will only work with public profiles or with the ID</font></b></p>]]></string> -->
+      <string name="help_add_contact_facebook_text"><![CDATA[<p>将朋友个人资料的网址写入输入字段，即朋友主页的网址（或Facebook个人资料名称（这不是Facebook上的朋友姓名！）或直接识别）。 基于facebook创始人Mark Zuckerberg的个人资料，我展示了所有有效的输入格式：<ol>
+<li>https://www.facebook.com/zuck</li><li>www.facebook.com/zuck</li><li>zuck</li><li>4</li></ol></p><p><b><font color="#FF0000">重要提示：遗憾的是，这只适用于公开个人资料或ID</font></b></p>]]></string>
+
+       <!-- <string name="dialog_info_root_title">Info root import</string> -->
+      <string name="dialog_info_root_title">信息root导入</string>
+
+       <!-- <string name="dialog_info_root_text1">Preconditions</string> -->
+      <string name="dialog_info_root_text1">前提条件</string>
+
+       <!-- <string name="dialog_info_root_text2">To use this function, following 3 preconditions must be met:</string> -->
+      <string name="dialog_info_root_text2">要使用此功能，必须满足以下3个前提条件：</string>
+
+       <!-- <string name="dialog_info_root_text3">• Either the original facebook app or the original facebook messanger must be installed</string> -->
+      <string name="dialog_info_root_text3">• 必须安装原始的facebook应用程序或原始的facebook messanger</string>
+
+       <!-- <string name="dialog_info_root_text4">• Your phone must be rooted (use the normal import otherwise!)</string> -->
+      <string name="dialog_info_root_text4">• 您的手机必须是root用户（否则请使用正常导入！）</string>
+
+       <!-- <string name="dialog_info_root_text5">• You must be logged into the original facebook app</string> -->
+      <string name="dialog_info_root_text5">• 您必须登录原始的Facebook应用程序</string>
+
+       <!-- <string name="my_profile">Own profile</string> -->
+      <string name="my_profile">自己的个人资料</string>
+
+       <!-- <string name="info_my_profile_not_exists">You have not set up a profile in your contacts yet, please do this first. This must be done in your android contacts app. Only afterwards you can sync your own profile image here.</string> -->
+      <string name="info_my_profile_not_exists">您尚未在联系人中设置个人资料，请先执行此操作。这必须在您的Android联系人应用程序中完成。之后，您可以在此处同步自己的个人资料图片。</string>
+
+       <!-- <string name="auto_import_info">%1$d links have been imported from your contacts automatically</string> -->
+      <string name="auto_import_info">%1$d 已自动从您的联系人导入链接</string>
+
+       <!-- <string name="name_not_found_rename_it">Name not found. Rename it manually please.</string> -->
+      <string name="name_not_found_rename_it">找不到姓名。请手动重命名。</string>
+
+       <!-- <string name="auto_export">Automatic export</string> -->
+      <string name="auto_export">自动导出</string>
+
+       <!-- <string name="auto_export_info">If enabled, CoSy will automatically export it\'s contact to friend linking as a custom field to your contacts.</string> -->
+      <string name="auto_export_info">如果启用，comfort会自动将其联系人导出到朋友链接作为自定义字段链接到您的联系人。</string>
+
+       <!-- <string name="error_occurred">Error</string> -->
+      <string name="error_occurred">错误</string>
+
+       <!-- <string name="advanced_functions">Special functions (Possibly dangerous!)</string> -->
+      <string name="advanced_functions">特殊功能（可能危险！）</string>
+
+       <!-- <string name="delete_all_linked_contact_images">Delete contact images from ALL currently linked contacts</string> -->
+      <string name="delete_all_linked_contact_images">删除所有当前链接的联系人的联系人图片</string>
+
+       <!-- <string name="privacy_information_feedback_title">Send feedback</string> -->
+      <string name="privacy_information_feedback_title">发送反馈</string>
+
+       <!-- <string name="privacy_information_feedback_text">Do you want to append the log file?</string> -->
+      <string name="privacy_information_feedback_text">是否添加日志文件？</string>
+
+       <!-- <string name="privacy_information_feedback_append">Append</string> -->
+      <string name="privacy_information_feedback_append">附加</string>
+
+       <!-- <string name="privacy_information_feedback_dont_append">Don\'t append</string> -->
+      <string name="privacy_information_feedback_dont_append">不要附加</string>
+
+       <!-- <string name="exporting_data">Exporting data...</string> -->
+      <string name="exporting_data">导出数据...</string>
+
+       <!-- <string name="info_logging_disabled">Logging disabled and log file cleared!</string> -->
+      <string name="info_logging_disabled">禁用日志记录并清除日志文件！</string>
+</resources>

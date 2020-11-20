@@ -1,1 +1,1 @@
-{"mappings":[]}
+{"mappings":[{"source":"M:\\dev\\11 - libs (mine)\\SwissArmy\\src\\main\\res\\values-zh-rCN\\swissarmy-strings.xml","target":"M:\\dev\\11 - libs (mine)\\Translations\\resources\\SwissArmy\\zh-rCN_swissarmy-strings_0.xml"}]}

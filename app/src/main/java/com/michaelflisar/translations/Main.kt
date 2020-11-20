@@ -6,6 +6,8 @@ import com.michaelflisar.translations.classes.ResFile
 import com.michaelflisar.translations.classes.Setup
 import com.michaelflisar.translations.utils.FileUtil
 import com.michaelflisar.translations.utils.L
+import com.michaelflisar.translations.utils.Util
+import org.omg.SendingContext.RunTime
 import java.io.File
 
 object Main {
@@ -16,13 +18,11 @@ object Main {
 
     private val action: Action = Action.Import
     private val outputPath = "M:\\dev\\11 - libs (mine)\\Translations\\resources"
-    private val validResourceFiles =
-        { file: File -> file.name.startsWith("strings") && file.name.endsWith(".xml") }
     private val settingsFileName = "settings.txt"
     private val infoFileName = "infos.md"
-    private val manuallyTranslatedLanguages = listOf(
-        "en",
-        "de"
+    private val defaultLanguage = "en"
+    private val supportedLanguages = listOf(
+        "es", "hu", "it", "ja", "pt-rBR", "sr", "tr", "zh-rCN"
     )
 
     // ----------------------
@@ -43,7 +43,7 @@ object Main {
             L.marker()
         } catch (e: Exception) {
             L.e(e.toString())
-            e.printStackTrace()
+            L.e(e)
         }
     }
 
@@ -80,21 +80,18 @@ object Main {
         //    - or update the imported files
         //    - create the settings files to remember source <=> target mappings
         val settings = ProjectSettings.read(projectTargetFolder, settingsFileName)
-        val resFiles = FileUtil.listFolders(projectSourceFolder) {
-            it.absolutePath.endsWith("res\\values")
-        }
-            .map {
-                it.listFiles()?.filter { f -> f.isFile && validResourceFiles(f) } ?: emptyList()
-            }
-            .flatten()
-            .map { ResFile(settings, it, projectTargetFolder) }
-        resFiles.forEach { it.import() }
+        val resourceFiles = FileUtil.listAllFiles(projectSourceFolder)
+            .map { Util.isValidStringResourceFile(it, supportedLanguages) }
+            .filter { it.valid }
+            .map { ResFile(settings, it.defaultFile!!, it.file, it.language, projectTargetFolder) }
+        resourceFiles
+            .forEach { it.import() }
         settings.save(projectTargetFolder, settingsFileName)
 
         // 3) create info .md file for this project
         File(projectTargetFolder, infoFileName).writeText(generateInfoText(project))
 
-        L.d("  - resFiles: ${resFiles.size}")
+        L.d("  - resourceFiles: ${resourceFiles.size}")
     }
 
     private fun export(project: Setup.Project) {
@@ -116,6 +113,7 @@ object Main {
         val sb = StringBuilder().apply {
             appendLine("# Infos for project ${project.name}")
             appendLine("I appreciate any help with translating my app. Of course, any person that helps translating my app will get the app for free in return.")
+            appendLine()
             appendLine("# Contribution process")
             appendLine("- Inform me via mail that you want to help to translate this app and add following informations")
             appendLine("  - app name")
