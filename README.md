@@ -10,4 +10,4 @@ Collaborative translations of some of my apps
 
 - create new language (empty)
 - remove deprecated strings from other languages
-- add missing scripts to already translated languages
+- add missing strings to already translated languages
