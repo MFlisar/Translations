@@ -1,0 +1,5 @@
+ext {
+    versions = [
+            kotlinVersion  : "1.4.10"
+    ]
+}

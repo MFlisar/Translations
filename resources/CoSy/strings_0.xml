@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network" translatable="false">Facebook</string>
+    <string name="app_description_name" translatable="false">Facebook</string>
+    <string name="ad_mob_app_id" translatable="false">ca-app-pub-8995381888279592~4067630616</string>
+    <string name="ad_mob_ad_id_banner" translatable="false">ca-app-pub-8995381888279592/2535057094</string>
+    <string name="ad_mob_ad_id_rewarded_video" translatable="false">ca-app-pub-8995381888279592/1198473433</string>
+    <string name="ad_mob_ad_id_interstital" translatable="false">ca-app-pub-8995381888279592/5708015346</string>
+
+    <string name="app_name">CoSy for Facebook</string>
+    <string name="app_name_in_app">CoSy for Facebook</string>
+    <string name="app_description"><b>Co</b>ntact <b>Sy</b>nc for Facebook</string>
+
+    <string name="privacy_information_title">Privacy information</string>
+    <string name="privacy_information_text_multi"><![CDATA[This app will import the list of all your facebook friends containing following private data from facebook if you continue:<br/><i>Profile links, names and public IDs of all your facebook friends.</i><br/><br/>As you need to log in to facebook, you additionally need to accept their rules, this means, by using facebook you may share private data with facebook, like for example WhatsApp data. Check out their policies to find out more: <a href=\"https://www.facebook.com/policy.php\">Facebook policy</a>]]></string>
+    <string name="privacy_information_text_single"><![CDATA[This app will import following private data from facebook if you continue:<br/><i>Profile links, names and public IDs of all your facebook friends.</i><br/><br/>As you need to log in to facebook, you additionally need to accept their rules, this means, by using facebook you may share private data with facebook, like for example WhatsApp data. Check out their policies to find out more: <a href=\"https://www.facebook.com/policy.php\">Facebook policy</a>]]></string>
+
+</resources>
