@@ -20,4 +20,8 @@ class ResString(
         out.appendLine("$prefix<string name=\"$key\">$value</string>")
 
     }
+
+    fun appendCSV(out: BufferedWriter) {
+        out.appendLine("\"$key\";\"$comment\";\"$value\"")
+    }
 }

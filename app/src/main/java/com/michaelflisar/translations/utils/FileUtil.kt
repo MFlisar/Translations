@@ -119,4 +119,18 @@ object FileUtil {
 
         }
     }
+
+    fun writeStringResourceFileCSV(
+        target: File,
+        finalTranslatedString: java.util.ArrayList<ResString>
+    ) {
+        target.bufferedWriter().use { out ->
+            out.appendLine("\"NAME\";\"DEFAULT VALUE\";\"TRANSLATED VALUE\"")
+            finalTranslatedString.forEach {
+                it.appendCSV(out)
+            }
+            out.appendLine("</resources>")
+
+        }
+    }
 }

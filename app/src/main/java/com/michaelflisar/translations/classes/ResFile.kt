@@ -49,6 +49,8 @@ class ResFile(
             finalTranslatedString.add(ResString(default.key, finalValue, default.value))
         }
         FileUtil.writeStringResourceFile(target, finalTranslatedString)
+        //val target2 = File(target.absolutePath.replace(".xml", ".csv"))
+        //FileUtil.writeStringResourceFileCSV(target2, finalTranslatedString)
 
         L.d("$source => $target")
     }
