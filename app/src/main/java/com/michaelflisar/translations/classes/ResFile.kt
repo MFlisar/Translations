@@ -13,6 +13,8 @@ class ResFile(
 ) {
 
     val target: File
+    var count: Int = 0
+        private set
 
     init {
         val existingMapping = settings.mappings.find { it.source == source.absolutePath }
@@ -35,6 +37,8 @@ class ResFile(
         val originalStrings = FileUtil.readStringResourceFile(source)
         val translatedString = FileUtil.readStringResourceFile(target)
         val defaultString = FileUtil.readStringResourceFile(default)
+
+        count = defaultString.size
 
         // update files if already existed
         val finalTranslatedString = ArrayList<ResString>()

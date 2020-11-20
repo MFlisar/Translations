@@ -7,7 +7,6 @@ import com.michaelflisar.translations.classes.Setup
 import com.michaelflisar.translations.utils.FileUtil
 import com.michaelflisar.translations.utils.L
 import com.michaelflisar.translations.utils.Util
-import org.omg.SendingContext.RunTime
 import java.io.File
 
 object Main {
@@ -21,9 +20,10 @@ object Main {
     private val settingsFileName = "settings.txt"
     private val infoFileName = "infos.md"
     private val defaultLanguage = "en"
-    private val supportedLanguages = listOf(
-        "es", "hu", "it", "ja", "pt-rBR", "sr", "tr", "zh-rCN"
-    )
+    // https://stackoverflow.com/questions/7973023/what-is-the-list-of-supported-languages-locales-on-android
+//    private val supportedLanguages = listOf(
+//        "es", "hu", "it", "ja", "pt-rBR", "sr", "tr", "zh-rCN", "ru"
+//    )
 
     // ----------------------
     // main
@@ -81,15 +81,18 @@ object Main {
         //    - create the settings files to remember source <=> target mappings
         val settings = ProjectSettings.read(projectTargetFolder, settingsFileName)
         val resourceFiles = FileUtil.listAllFiles(projectSourceFolder)
-            .map { Util.isValidStringResourceFile(it, supportedLanguages) }
+            .map { Util.isValidStringResourceFile(it, null) }
             .filter { it.valid }
             .map { ResFile(settings, it.defaultFile!!, it.file, it.language, projectTargetFolder) }
         resourceFiles
             .forEach { it.import() }
         settings.save(projectTargetFolder, settingsFileName)
 
+        val counts = resourceFiles.map { it.default }.toSet()
+            .map { t -> resourceFiles.find { it.default == t }!!.count }
+
         // 3) create info .md file for this project
-        File(projectTargetFolder, infoFileName).writeText(generateInfoText(project))
+        File(projectTargetFolder, infoFileName).writeText(generateInfoText(project, counts))
 
         L.d("  - resourceFiles: ${resourceFiles.size}")
     }
@@ -109,7 +112,7 @@ object Main {
         L.d("  - cleaning language...")
     }
 
-    fun generateInfoText(project: Setup.Project): String {
+    fun generateInfoText(project: Setup.Project, counts: List<Int>): String {
         val sb = StringBuilder().apply {
             appendLine("# Infos for project ${project.name}")
             appendLine("I appreciate any help with translating my app. Of course, any person that helps translating my app will get the app for free in return.")
@@ -121,7 +124,11 @@ object Main {
             appendLine("- Wait for my answer mail - I will prepare your language if it does not yet exist")
             appendLine("- Clone this project and make your changes")
             appendLine("- Create a pull request to submit your changes into this repository")
+            appendLine()
             appendLine("That's it so far.")
+            appendLine()
+            appendLine("# Infos")
+            appendLine("- Strings: ${counts.joinToString()}")
         }
         return sb.toString()
     }

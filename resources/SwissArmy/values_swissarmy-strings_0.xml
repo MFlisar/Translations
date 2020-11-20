@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+       <!-- <string name="policy">Privacy policy</string> -->
+      <string name="policy">Privacy policy</string>
+
+       <!-- <string name="press_back_button_again_to_exit">Press again to exit this app</string> -->
+      <string name="press_back_button_again_to_exit">Press again to exit this app</string>
+
+       <!-- <string name="feedback_mail_title">Feedback for %1$s (v%2$s)</string> -->
+      <string name="feedback_mail_title">Feedback for %1$s (v%2$s)</string>
+
+       <!-- <string name="changelog">Changelog</string> -->
+      <string name="changelog">Changelog</string>
+
+       <!-- <string name="yes">Yes</string> -->
+      <string name="yes">Yes</string>
+
+       <!-- <string name="no">No</string> -->
+      <string name="no">No</string>
+
+       <!-- <string name="save">Save</string> -->
+      <string name="save">Save</string>
+
+       <!-- <string name="mail">E-Mail</string> -->
+      <string name="mail">E-Mail</string>
+
+       <!-- <string name="add_log">Add log file</string> -->
+      <string name="add_log">Add log file</string>
+
+       <!-- <string name="feedback_no_text">Please enter some feedback</string> -->
+      <string name="feedback_no_text">Please enter some feedback</string>
+
+       <!-- <string name="feedback_is_send">Feedback is being send...</string> -->
+      <string name="feedback_is_send">Feedback is being send...</string>
+
+       <!-- <string name="feedback_was_send">Feedback has been send successfully</string> -->
+      <string name="feedback_was_send">Feedback has been send successfully</string>
+
+       <!-- <string name="feedback_send_error">Feedback couldn\'t be send, please try it again</string> -->
+      <string name="feedback_send_error">Feedback couldn\'t be send, please try it again</string>
+
+       <!-- <string name="timer_button">%1$s (%2$ss)</string> -->
+      <string name="timer_button">%1$s (%2$ss)</string>
+
+       <!-- <string name="feedback_info">Please insert your feedback (english or german only). Provide an email, if you want me to be able to contact you, if necessary.</string> -->
+      <string name="feedback_info">Please insert your feedback (english or german only). Provide an email, if you want me to be able to contact you, if necessary.</string>
+
+       <!-- <string name="md_cancel_label">Cancel</string> -->
+      <string name="md_cancel_label">Cancel</string>
+
+       <!-- <string name="premium_bought_message">Thanks for buying the Pro Version.</string> -->
+      <string name="premium_bought_message">Thanks for buying the Pro Version.</string>
+
+       <!-- <string name="premium_version">Pro Version</string> -->
+      <string name="premium_version">Pro Version</string>
+
+       <!-- <string name="premium_version_short">Pro</string> -->
+      <string name="premium_version_short">Pro</string>
+
+       <!-- <string name="free_version">Lite</string> -->
+      <string name="free_version">Lite</string>
+
+       <!-- <string name="checking_version">Checking version...</string> -->
+      <string name="checking_version">Checking version...</string>
+
+       <!-- <string name="buy_dialog_title">Pro Version</string> -->
+      <string name="buy_dialog_title">Pro Version</string>
+
+       <!-- <string name="buy_dialog_button">Buy Pro Version</string> -->
+      <string name="buy_dialog_button">Buy Pro Version</string>
+
+       <!-- <string name="buy_dialog_message">If you like %1$s, please buy the pro version. It does not have ads and you are supporting the developer\n- more at Google Play</string> -->
+      <string name="buy_dialog_message">If you like %1$s, please buy the pro version. It does not have ads and you are supporting the developer\n- more at Google Play</string>
+
+       <!-- <string name="buy_premium_version">Buy Pro Version</string> -->
+      <string name="buy_premium_version">Buy Pro Version</string>
+
+       <!-- <string name="wrapped_error">%1$s - Error: %2$s</string> -->
+      <string name="wrapped_error">%1$s - Error: %2$s</string>
+
+       <!-- <string name="unknown_error">Unknown error</string> -->
+      <string name="unknown_error">Unknown error</string>
+
+       <!-- <string name="crash_dialog_title">App crashed</string> -->
+      <string name="crash_dialog_title">App crashed</string>
+
+       <!-- <string name="crash_dialog_text">An unexpected error occurred. Please help me to fix this by sending me the error data by clicking OK.</string> -->
+      <string name="crash_dialog_text">An unexpected error occurred. Please help me to fix this by sending me the error data by clicking OK.</string>
+
+       <!-- <string name="send_feedback">Send feedback</string> -->
+      <string name="send_feedback">Send feedback</string>
+
+       <!-- <string name="filter">Filter</string> -->
+      <string name="filter">Filter</string>
+
+       <!-- <string name="import_title">Import</string> -->
+      <string name="import_title">Import</string>
+
+       <!-- <string name="export_title">Export</string> -->
+      <string name="export_title">Export</string>
+
+       <!-- <string name="export_only_on_kitkat_or_above">Sorry, the export is only supported on android 4.4 (Kitkat) or above</string> -->
+      <string name="export_only_on_kitkat_or_above">Sorry, the export is only supported on android 4.4 (Kitkat) or above</string>
+</resources>
