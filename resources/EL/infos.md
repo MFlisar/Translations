@@ -12,4 +12,4 @@ I appreciate any help with translating my app. Of course, any person that helps 
 That's it so far.
 
 # Infos
-- Strings: 0, 1, 1, 1230
+- Strings: 1230

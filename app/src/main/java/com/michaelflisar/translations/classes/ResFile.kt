@@ -20,25 +20,33 @@ class ResFile(
         val existingMapping = settings.mappings.find { it.source == source.absolutePath }
         val existingTarget = existingMapping?.target?.let { File(it) }
 
+        val defaultString = FileUtil.readStringResourceFile(default)
+        count = defaultString.size
+
         if (existingTarget != null) {
             target = existingTarget
         } else {
             target = createNewFile(settings)
-            settings.add(source, target)
+            if (count > 0)
+                settings.add(source, target)
         }
     }
+
+    val valid: Boolean
+        get() = count > 0
 
     /*
      * this is not optimised, it's just the most simple solution to make it easy
      */
     fun import() {
 
+        if (count == 0)
+            return
+
         // read original and translated resources
         val originalStrings = FileUtil.readStringResourceFile(source)
         val translatedString = FileUtil.readStringResourceFile(target)
         val defaultString = FileUtil.readStringResourceFile(default)
-
-        count = defaultString.size
 
         // update files if already existed
         val finalTranslatedString = ArrayList<ResString>()

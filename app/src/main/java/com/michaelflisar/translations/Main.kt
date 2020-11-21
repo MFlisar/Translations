@@ -3,27 +3,12 @@ package com.michaelflisar.translations
 import com.michaelflisar.translations.classes.Action
 import com.michaelflisar.translations.classes.ProjectSettings
 import com.michaelflisar.translations.classes.ResFile
-import com.michaelflisar.translations.classes.Setup
 import com.michaelflisar.translations.utils.FileUtil
 import com.michaelflisar.translations.utils.L
 import com.michaelflisar.translations.utils.Util
 import java.io.File
 
 object Main {
-
-    // ----------------------
-    // action setup
-    // ----------------------
-
-    private val action: Action = Action.Import
-    private val outputPath = "M:\\dev\\11 - libs (mine)\\Translations\\resources"
-    private val settingsFileName = "settings.txt"
-    private val infoFileName = "infos.md"
-    private val defaultLanguage = "en"
-    // https://stackoverflow.com/questions/7973023/what-is-the-list-of-supported-languages-locales-on-android
-//    private val supportedLanguages = listOf(
-//        "es", "hu", "it", "ja", "pt-rBR", "sr", "tr", "zh-rCN", "ru"
-//    )
 
     // ----------------------
     // main
@@ -38,7 +23,7 @@ object Main {
             L.newLine()
             L.marker()
             Setup.projects.forEachIndexed { index, project ->
-                processProject(index, project)
+                processProject(index, project, Setup.ACTION)
             }
             L.marker()
         } catch (e: Exception) {
@@ -49,7 +34,8 @@ object Main {
 
     private fun processProject(
         index: Int,
-        project: Setup.Project
+        project: Setup.Project,
+        action: Action
     ) {
         L.d("- Project ${index + 1}: ${project.name}")
         when (action) {
@@ -70,7 +56,7 @@ object Main {
         val projectSourceFolder = File(project.path)
 
         // 1) create folders for resource copies
-        val rootFolder = File(outputPath)
+        val rootFolder = File(Setup.OUTPUT_PATH)
         val projectTargetFolder = File(rootFolder, project.name)
         projectTargetFolder.mkdirs()
 
@@ -79,26 +65,29 @@ object Main {
         //    - import the files from there if not already done
         //    - or update the imported files
         //    - create the settings files to remember source <=> target mappings
-        val settings = ProjectSettings.read(projectTargetFolder, settingsFileName)
+        val settings = ProjectSettings.read(projectTargetFolder, Setup.SETTINGS_FILE_NAME)
         val resourceFiles = FileUtil.listAllFiles(projectSourceFolder)
-            .map { Util.isValidStringResourceFile(it, null) }
-            .filter { it.valid }
+            .map { Util.isValidStringResourceFile(it, Setup.DEFAULT_LANGUAGE, null) }
+            .filter { it.valid && !it.isDefaultLanguage }
             .map { ResFile(settings, it.defaultFile!!, it.file, it.language, projectTargetFolder) }
+            .filter { it.valid }
         resourceFiles
             .forEach { it.import() }
-        settings.save(projectTargetFolder, settingsFileName)
+        settings.save(projectTargetFolder, Setup.SETTINGS_FILE_NAME)
 
         val counts = resourceFiles.map { it.default }.toSet()
             .map { t -> resourceFiles.find { it.default == t }!!.count }
 
         // 3) create info .md file for this project
-        File(projectTargetFolder, infoFileName).writeText(generateInfoText(project, counts))
+        File(projectTargetFolder, Setup.INFO_FILE_NAME).writeText(generateInfoText(project, counts))
 
         L.d("  - resourceFiles: ${resourceFiles.size}")
     }
 
     private fun export(project: Setup.Project) {
         L.d("  - exporting...")
+
+        // TODO: check if source and target have the some amount of %s and similar tags
     }
 
     private fun createNewLanguage(

@@ -9,16 +9,11 @@ class ResString(
 ) {
     fun append(out: BufferedWriter, intentionLevel: Int) {
         val prefix = "   ".repeat(intentionLevel * 2)
-        val addon = comment.takeIf { it.length > 0 }?.let { " <!-- $it -->" } ?: ""
-        //out.appendLine("$prefix<string name=\"$key\">$value</string>$addon")
-
         if (comment.isNotEmpty()) {
             out.appendLine()
             out.appendLine("$prefix <!-- <string name=\"$key\">$comment</string> -->")
-//            out.appendLine("$prefix <!-- $comment -->")
         }
         out.appendLine("$prefix<string name=\"$key\">$value</string>")
-
     }
 
     fun appendCSV(out: BufferedWriter) {

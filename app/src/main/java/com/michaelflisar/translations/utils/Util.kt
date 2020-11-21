@@ -4,7 +4,7 @@ import java.io.File
 
 object Util {
 
-    fun isValidStringResourceFile(file: File, supportedLanguages: List<String>? = null): ResourceFileInfo {
+    fun isValidStringResourceFile(file: File, defaultLanguage: String, supportedLanguages: List<String>? = null): ResourceFileInfo {
         val parent = file.parentFile
         // 1) parent folder must be a "values.*" folder
         if (parent == null || !parent.nameWithoutExtension.startsWith("values"))
@@ -18,7 +18,8 @@ object Util {
         // 4) file must contain string in name
         if (!file.name.contains("string", true))
             return ResourceFileInfo(file, false)
-        val lang = parent.nameWithoutExtension.replace("values-", "")
+        val parentFolderName = parent.nameWithoutExtension
+        val lang = if (parentFolderName.equals("values")) defaultLanguage else parentFolderName.replace("values-", "")
         val defaultFile = File("${parent.parent}\\values\\${file.name}")
         return ResourceFileInfo(file, true, defaultFile, lang)
     }
@@ -28,5 +29,7 @@ object Util {
         val valid: Boolean,
         val defaultFile: File? = null,
         val language: String = ""
-    )
+    ) {
+        val isDefaultLanguage = file == defaultFile
+    }
 }
